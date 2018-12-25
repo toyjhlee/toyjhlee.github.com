@@ -106,8 +106,8 @@ author:
   name             : "toyjhlee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "."
-  location         : "South Korea"
-  email            : "toyjhlee@gmail.com"
+  location         : "South,Korea"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
