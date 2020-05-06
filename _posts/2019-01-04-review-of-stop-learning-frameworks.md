@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "리뷰 [Stop Learning Frameworkss]"
 date:   2019-01-04 11:49:00 +0900
 categories: review

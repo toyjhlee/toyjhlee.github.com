@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "리뷰 [The Present]"
 date:   2019-02-10 13:55:00 +0900
 categories: review

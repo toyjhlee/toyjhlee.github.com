@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "눈덩어리를 크게 만드는 방법"
 date:   2020-05-02 17:00:00 +0900
 categories: advice
