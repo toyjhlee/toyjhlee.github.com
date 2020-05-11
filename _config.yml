@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Lee Junghan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "삶은 나를 발견하는 과정이 아니라, 나를 창조하는 과정이다"
   location         : "Seoul,Korea"
   email            : "toyjhlee@gmail.com"
   links:
