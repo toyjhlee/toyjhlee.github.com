@@ -11,3 +11,6 @@ categories: engineering
 2. Extensions
     - GitLens
     - Vim
+    - Markdown Preview Enhanced
+    - Todo Tree
+    - SVG Viewer
