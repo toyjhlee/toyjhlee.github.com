@@ -1,3 +1,5 @@
+## 읽어야 할 내용들
+
 2020년과 이후 JavaScript의 동향 시리즈의 두 번째 글인 WebAssembly 동향을 공유합니다.
 
 2020-09-03-2020-jascript-writer-naver
