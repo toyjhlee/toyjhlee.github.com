@@ -20,3 +20,11 @@
 
 #### 데이터 과학
 - [ ] [가구당 가계수지 - 10 분위별](https://statkclee.github.io/viz/viz-household-balance-deciles.html#major-surplus)
+
+
+#### Rico's cheatsheets
+- [ ] [Jest cheatsheet](https://devhints.io/jest)
+- [ ] [Markdown cheatsheet](https://devhints.io/markdown)
+
+### TEST
+- [ ] [정리 - 노트 클립 - 구글은 어떻게 소프트웨어를 테스트하는가](http://josephyeo.github.io/Testing/note_googletesting.html)
