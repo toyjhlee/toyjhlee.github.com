@@ -1,6 +1,10 @@
 #### 도입부
-- 행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나]
+- 행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]
 - 하나의 문제는 하나의 원인으로 이루어 지지 않는다
+- 테스트는 deterministic 해야한다. (언제 실행되든 항상 같은 결과를 내야한다.)
+
+- 에러 `[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]`
+    - 해결 `import 'resize-observer-polyfill/dist/ResizeObserver.global'`
 
 ### 용어 정리
 - TDD: test driven development
@@ -12,10 +16,23 @@
 - lib
   - lib 를 믿어라. input 이 올바른지 확인!
 
+Test Runner
+Test Mathcher
+Test Mock
+
 ### reat-testing-library
 - [api-queries](https://testing-library.com/docs/dom-testing-library/api-queries)
 - [cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet#queries)
 - [testing-library / jest-dom - Custom matchers](https://github.com/testing-library/jest-dom#table-of-contents)
+- [examples](https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples)
+
+### jest
+- [daleseo.com][(https://www.daleseo.com/jest-before-after/)
+    - [Jest로 기본적인 테스트 작성하기](https://www.daleseo.com/jest-basic/)
+    - [Jest로 테스트 전/후 처리하기](https://www.daleseo.com/jest-before-after/)
+    - [Jest로 비동기 코드 테스트 작성하기](https://www.daleseo.com/jest-async/)
+    - [[Jest] jest.fn(), jest.spyOn() 함수 모킹](https://www.daleseo.com/jest-fn-spy-on/)
+    - [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
 
 ### robinwieruch
 - [react-testing-library](https://www.robinwieruch.de/react-testing-library)
@@ -24,6 +41,8 @@
 
 ### form 관련 예시 및 설명
 - [React Testing Library 사용법](https://www.daleseo.com/react-testing-library/)
+
+[Difference between enzyme, ReactTestUtils and react-testing-library](https://stackoverflow.com/questions/54152562/difference-between-enzyme-reacttestutils-and-react-testing-library?answertab=active#tab-top)
 
 ###
 - [Redux useSelector and useDispatch hook test example](https://gist.github.com/krawaller/e5d40217658fa132f3c3904987e467cd)
