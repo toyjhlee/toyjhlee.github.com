@@ -47,13 +47,19 @@
     ### test with react testing library
 
     ```
-        const {container:any} = render(<Provider store={store}><Component /></Provider>)
+        import React from 'react'
+        import {render, fireEvent, wait} from '@testing-library/react'
+        import {Provider} from 'react-redux'
 
-        const file = new File(['123'], 'test.png', {type: 'image/png'})
-        fireEvent.change(container.querySelector(`input[type=file]`), {target: {files: [file], result: ''}})
+        it('input file change', async () => {
+            const {container:any} = render(<Provider store={store}><Component /></Provider>)
 
-        // wait
-        await wait(() => container.querySelector(`img`).getAttribute('src') !== '')
+            const file = new File(['123'], 'test.png', {type: 'image/png'})
+            fireEvent.change(container.querySelector(`input[type=file]`), {target: {files: [file], result: ''}})
 
-        expect(container.querySelector(`img`)).not.toHaveAttribute('src', '')
+            // wait
+            await wait(() => container.querySelector(`img`).getAttribute('src') !== '')
+
+            expect(container.querySelector(`img`)).not.toHaveAttribute('src', '')
+        })
     ```
