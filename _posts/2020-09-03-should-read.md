@@ -13,6 +13,10 @@
 
 - [ ] [2019년과 이후 JavaScript의 동향 - WebAssembly](https://d2.naver.com/helloworld/8786166)
 
+#### toast ui
+
+- [weekly-pick](https://ui.toast.com/weekly-pick/ko/)
+
 #### typescript
 
 - [ ] [awesome-typescript-korean](https://github.com/typescript-kr/awesome-typescript-korean)
