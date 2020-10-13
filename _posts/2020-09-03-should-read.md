@@ -43,3 +43,7 @@
 - [ ] [Hooks API Reference](https://ko.reactjs.org/docs/hooks-reference.html#usecontext)
 - [ ] [자신만의 Hook 만들기](https://ko.reactjs.org/docs/hooks-custom.html)
 - [ ] [Context 고급 안내서](https://ko.reactjs.org/docs/context.html)
+
+### javascript
+
+- [ ] [The 16 JavaScript debugging tips you probably didn’t know](https://raygun.com/learn/javascript-debugging-tips?utm_medium=newsletter&utm_source=javascriptweekly&utm_campaign=cooperpress&utm_content=article)
