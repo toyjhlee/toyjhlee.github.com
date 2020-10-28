@@ -47,3 +47,5 @@
 ### javascript
 
 - [ ] [The 16 JavaScript debugging tips you probably didn’t know](https://raygun.com/learn/javascript-debugging-tips?utm_medium=newsletter&utm_source=javascriptweekly&utm_campaign=cooperpress&utm_content=article)
+
+- [ ] [MDN Web Developer Needs Assessment 2019](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Web-DNA-Report-2019.pdf)
