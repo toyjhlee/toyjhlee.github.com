@@ -1,6 +1,6 @@
 ---
-title:  "Seven Css Units"
-date:   2020-05-18 10:07:00 +0900
+title: 'Seven Css Units'
+date: 2020-05-18 10:07:00 +0900
 categories: engineering
 ---
 

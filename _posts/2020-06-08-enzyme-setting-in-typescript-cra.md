@@ -1,6 +1,6 @@
 ---
-title:  "enzyme 설정하기 with jest, typescript, create react app"
-date:   2020-05-30 09:18:00 +0900
+title: 'enzyme 설정하기 with jest, typescript, create react app'
+date: 2020-05-30 09:18:00 +0900
 categories: engineering
 ---
 

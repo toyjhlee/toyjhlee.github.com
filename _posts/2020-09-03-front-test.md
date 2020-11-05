@@ -1,77 +1,88 @@
 #### 도입부
-- 행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]
-- 하나의 문제는 하나의 원인으로 이루어 지지 않는다
-- 테스트는 deterministic 해야한다. (언제 실행되든 항상 같은 결과를 내야한다.)
 
-- 에러 `[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]`
-    - 해결 `import 'resize-observer-polyfill/dist/ResizeObserver.global'`
+-   행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]
+-   하나의 문제는 하나의 원인으로 이루어 지지 않는다
+-   테스트는 deterministic 해야한다. (언제 실행되든 항상 같은 결과를 내야한다.)
+
+-   에러 `[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]`
+    -   해결 `import 'resize-observer-polyfill/dist/ResizeObserver.global'`
 
 ### 용어 정리
-- TDD: test driven development
-- BDD: Behaviour-Driven Development
-  - 어떤 행위를 해야한다. (should do someting)
-  - BDD는 비즈니스 요구사항에 집중하여 테스트 케이스
+
+-   TDD: test driven development
+-   BDD: Behaviour-Driven Development
+    -   어떤 행위를 해야한다. (should do someting)
+    -   BDD는 비즈니스 요구사항에 집중하여 테스트 케이스
 
 ### 경우에 관한 테스트 생각 by toyjhlee
-- lib
-  - lib 를 믿어라. input 이 올바른지 확인!
 
-Test Runner
-Test Mathcher
-Test Mock
+-   lib
+    -   lib 를 믿어라. input 이 올바른지 확인!
+
+Test Runner Test Mathcher Test Mock
 
 ### reat-testing-library
-- [api-queries](https://testing-library.com/docs/dom-testing-library/api-queries)
-- [cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet#queries)
-- [testing-library / jest-dom - Custom matchers](https://github.com/testing-library/jest-dom#table-of-contents)
-- [examples](https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples)
+
+-   [api-queries](https://testing-library.com/docs/dom-testing-library/api-queries)
+-   [cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet#queries)
+-   [testing-library / jest-dom - Custom matchers](https://github.com/testing-library/jest-dom#table-of-contents)
+-   [examples](https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples)
 
 ### jest
-- [daleseo.com][(https://www.daleseo.com/jest-before-after/)
-    - [Jest로 기본적인 테스트 작성하기](https://www.daleseo.com/jest-basic/)
-    - [Jest로 테스트 전/후 처리하기](https://www.daleseo.com/jest-before-after/)
-    - [Jest로 비동기 코드 테스트 작성하기](https://www.daleseo.com/jest-async/)
-    - [[Jest] jest.fn(), jest.spyOn() 함수 모킹](https://www.daleseo.com/jest-fn-spy-on/)
-    - [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
+
+-   [daleseo.com](https://www.daleseo.com/jest-before-after/)
+    -   [Jest로 기본적인 테스트 작성하기](https://www.daleseo.com/jest-basic/)
+    -   [Jest로 테스트 전/후 처리하기](https://www.daleseo.com/jest-before-after/)
+    -   [Jest로 비동기 코드 테스트 작성하기](https://www.daleseo.com/jest-async/)
+    -   [[Jest] jest.fn(), jest.spyOn() 함수 모킹](https://www.daleseo.com/jest-fn-spy-on/)
+    -   [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
 
 ### robinwieruch
-- [react-testing-library](https://www.robinwieruch.de/react-testing-library)
-- [How to test React-Redux connected Components](https://www.robinwieruch.de/react-connected-component-test)
-- [How to test React with Jest & Enzyme](https://www.robinwieruch.de/react-testing-jest-enzyme)
+
+-   [react-testing-library](https://www.robinwieruch.de/react-testing-library)
+-   [How to test React-Redux connected Components](https://www.robinwieruch.de/react-connected-component-test)
+-   [How to test React with Jest & Enzyme](https://www.robinwieruch.de/react-testing-jest-enzyme)
 
 ### form 관련 예시 및 설명
-- [React Testing Library 사용법](https://www.daleseo.com/react-testing-library/)
+
+-   [React Testing Library 사용법](https://www.daleseo.com/react-testing-library/)
 
 [Difference between enzyme, ReactTestUtils and react-testing-library](https://stackoverflow.com/questions/54152562/difference-between-enzyme-reacttestutils-and-react-testing-library?answertab=active#tab-top)
 
 ###
-- [Redux useSelector and useDispatch hook test example](https://gist.github.com/krawaller/e5d40217658fa132f3c3904987e467cd)
-    - [redux-mock-store](https://github.com/reduxjs/redux-mock-store) 사용
-        - `const configureStore = require('redux-mock-store').default`
 
-- [Writing Tests - Redux 공식홈](https://redux.js.org/recipes/writing-tests#connected-components)
-- [React + Redux 앱 테스트](https://velopert.com/3591)
-- [Unit Testing React-Redux Hooks - enzyme](https://medium.com/better-programming/unit-testing-react-redux-hooks-ce7d69e1e834)
+-   [Redux useSelector and useDispatch hook test example](https://gist.github.com/krawaller/e5d40217658fa132f3c3904987e467cd)
 
-- [RTL with redux](https://dev.to/fredrikbergqvist/mocking-redux-useselector-hook-2ale)
+    -   [redux-mock-store](https://github.com/reduxjs/redux-mock-store) 사용
+        -   `const configureStore = require('redux-mock-store').default`
 
-- [Testing Redux - reactjsday](https://noriste.github.io/reactjsday-2019-testing-course/book/react-testing-library/redux.html)
+-   [Writing Tests - Redux 공식홈](https://redux.js.org/recipes/writing-tests#connected-components)
+-   [React + Redux 앱 테스트](https://velopert.com/3591)
+-   [Unit Testing React-Redux Hooks - enzyme](https://medium.com/better-programming/unit-testing-react-redux-hooks-ce7d69e1e834)
 
-- [RTL로 HOC with React-Hooks 테스트 하기](https://pewww.tistory.com/25)
+-   [RTL with redux](https://dev.to/fredrikbergqvist/mocking-redux-useselector-hook-2ale)
+
+-   [Testing Redux - reactjsday](https://noriste.github.io/reactjsday-2019-testing-course/book/react-testing-library/redux.html)
+
+-   [RTL로 HOC with React-Hooks 테스트 하기](https://pewww.tistory.com/25)
 
 ### 링크들
-- [입에 쓴 보약, TDD와 BDD - 2013.05 마소 VOL. 355-2013.05](https://kdata.or.kr/info/info_04_view.html?field=&keyword=&type=techreport&page=48&dbnum=172089&mode=detail&type=techreport)
-  - 화성에서 온 TDD, 금성에서 온 BDD?
 
-- [번역 - 리액트 + 리덕스 앱을 Jest와 Enzyme으로 테스트 하며 얻은 교훈](https://rinae.dev/posts/lessons-learned-testing-react-redux-apps-with-jest-and-enzyme-kr)
-    - 같은 환경이 아니어도 읽어볼 가치가 있다
+-   [입에 쓴 보약, TDD와 BDD - 2013.05 마소 VOL. 355-2013.05](https://kdata.or.kr/info/info_04_view.html?field=&keyword=&type=techreport&page=48&dbnum=172089&mode=detail&type=techreport)
 
-- Enzyme’s TDD approach and react-testing-library’s BDD
+    -   화성에서 온 TDD, 금성에서 온 BDD?
 
-- 삭제 가능 할 듯 [Enzyme vs. react-testing-library: A mindset shift](https://blog.logrocket.com/enzyme-vs-react-testing-library-a-mindset-shift/)
-  - React-testing-library
-    - 장점 : jest-dom 을 사용하여 좀 더 쉽게 만들 수 있음
-    - 단점 : state 에 접근 할 수 없음
-  - logrocket 소개
+-   [번역 - 리액트 + 리덕스 앱을 Jest와 Enzyme으로 테스트 하며 얻은 교훈](https://rinae.dev/posts/lessons-learned-testing-react-redux-apps-with-jest-and-enzyme-kr)
 
-- [spearmint](https://github.com/open-source-labs/spearmint)
+    -   같은 환경이 아니어도 읽어볼 가치가 있다
+
+-   Enzyme’s TDD approach and react-testing-library’s BDD
+
+-   삭제 가능 할 듯 [Enzyme vs. react-testing-library: A mindset shift](https://blog.logrocket.com/enzyme-vs-react-testing-library-a-mindset-shift/)
+
+    -   React-testing-library
+        -   장점 : jest-dom 을 사용하여 좀 더 쉽게 만들 수 있음
+        -   단점 : state 에 접근 할 수 없음
+    -   logrocket 소개
+
+-   [spearmint](https://github.com/open-source-labs/spearmint)

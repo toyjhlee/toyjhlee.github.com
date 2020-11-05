@@ -1,6 +1,6 @@
 ---
-title:  "새 환경에 기존 파일로 git 설정"
-date:   2020-07-15 15:09:00 +0900
+title: '새 환경에 기존 파일로 git 설정'
+date: 2020-07-15 15:09:00 +0900
 categories: engineering
 ---
 
