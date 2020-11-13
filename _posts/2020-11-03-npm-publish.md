@@ -74,3 +74,10 @@
 #### 해결
 
 -   npm 패키지 이름을 겹치지 않게 수정 [참고 링크](https://thebook.io/080229/ch05/05-01/)
+
+#### Example
+
+-   [How to Create a Typescript and React Module](https://www.pluralsight.com/guides/react-typescript-module-create)
+    -   에러 발생 `/build/index.tsx' is not a module.ts(2306)`
+    -   해결 방법 : 찾는 중 ...
+    -   Tip : build 해서 작업 중인 곳에서 확인 해보면 된다 ....
