@@ -1,6 +1,6 @@
 ### 명령어
 
-    - npm login 시 `401 unauthorized` 발생
+-   npm login 시 `401 unauthorized` 발생
 
 ### 에러
 
