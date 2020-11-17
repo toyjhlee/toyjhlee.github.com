@@ -81,3 +81,8 @@
     -   에러 발생 `/build/index.tsx' is not a module.ts(2306)`
     -   해결 방법 : 찾는 중 ...
     -   Tip : build 해서 작업 중인 곳에서 확인 해보면 된다 ....
+
+#### unpublish
+
+-   `pm unpublish <pkg> --force`
+-   [문서 npm-unpublish](https://docs.npmjs.com/cli/v6/commands/npm-unpublish)
