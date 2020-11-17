@@ -49,3 +49,12 @@
 -   [ ] [The 16 JavaScript debugging tips you probably didn’t know](https://raygun.com/learn/javascript-debugging-tips?utm_medium=newsletter&utm_source=javascriptweekly&utm_campaign=cooperpress&utm_content=article)
 
 -   [ ] [MDN Web Developer Needs Assessment 2019](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Web-DNA-Report-2019.pdf)
+
+### news
+
+-   [ ] [The StartUp Bible](https://www.thestartupbible.com/)
+-   [ ] [Startup Lessons](http://tkim.co/)
+
+### 학습법
+
+-   [ ] [[번역] 탁월한 프론트엔드 엔지니어가 되는 법](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
