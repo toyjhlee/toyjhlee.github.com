@@ -20,6 +20,7 @@
 #### typescript
 
 -   [ ] [awesome-typescript-korean](https://github.com/typescript-kr/awesome-typescript-korean)
+-   [ ] [typescript-kr.github.io](https://typescript-kr.github.io/)
 
 #### React
 
@@ -43,6 +44,12 @@
 -   [ ] [Hooks API Reference](https://ko.reactjs.org/docs/hooks-reference.html#usecontext)
 -   [ ] [자신만의 Hook 만들기](https://ko.reactjs.org/docs/hooks-custom.html)
 -   [ ] [Context 고급 안내서](https://ko.reactjs.org/docs/context.html)
+
+-   [ ] [WhyReact.md](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)
+
+### Svelte
+
+-   [ ] [Svelte 의 장단점](https://gist.github.com/rabelais88/19bfe8dfd29d901554389f0a8cc8947a)
 
 ### javascript
 

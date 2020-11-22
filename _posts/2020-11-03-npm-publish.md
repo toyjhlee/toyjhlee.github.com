@@ -86,3 +86,30 @@
 
 -   `pm unpublish <pkg> --force`
 -   [문서 npm-unpublish](https://docs.npmjs.com/cli/v6/commands/npm-unpublish)
+
+#### semantic-release
+
+-   [github](https://github.com/semantic-release/semantic-release)
+
+#### 에러
+
+```
+You cannot publish over the previously published version. Try bumping the version to
+```
+
+### 원인
+
+-   unpublish 한 동일 package 의 version 정보 보다 높아야 한다
+-   [npm github](https://github.com/npm/npm/issues/9266)
+
+### 해결
+
+-   원인에 포함되어 있음
+
+### Webpack
+
+-   [Webpack에서 Tree Shaking 적용하기](https://medium.com/naver-fe-platform/webpack%EC%97%90%EC%84%9C-tree-shaking-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-1748e0e0c365)
+
+    -   Tree Shaking은 사용하지 않는 코드를 제거함으로써 용량을 줄일 수 있는 방식입니다.
+
+-   [Webpack 4의 Tree Shaking에 대한 이해](https://huns.me/development/2265)
