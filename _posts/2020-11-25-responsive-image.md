@@ -1,6 +1,6 @@
 -   [mozilla 반응형 이미지](https://developer.mozilla.org/ko/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-    -   ````html
+    -   ```html
         <img
             srcset="elva-fairy-320w.jpg 320w, elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
             sizes="(max-width: 320px) 280px,
@@ -9,13 +9,14 @@
             src="elva-fairy-800w.jpg"
             alt="요정 옷을 입은 엘바"
         />
-        ``` 위 속성들을 브라우저는 이렇게 할 것이다
-        ````
+        ```
 
-    1. 기기 너비를 확인한다.
-    2. sizes 목록에서 가장 먼저 참이 되는 미디어 조건문을 확인한다.
-    3. 해당 미디어 쿼리가 제공하는 슬롯 크기를 확인한다.
-    4. 해당 슬롯 크기에 가장 근접하게 맞는 srcset에 연결된 이미지를 불러온다.
+        -   #### 위 속성들을 브라우저는 이렇게 할 것이다
+
+            1. 기기 너비를 확인한다.
+            2. sizes 목록에서 가장 먼저 참이 되는 미디어 조건문을 확인한다.
+            3. 해당 미디어 쿼리가 제공하는 슬롯 크기를 확인한다.
+            4. 해당 슬롯 크기에 가장 근접하게 맞는 srcset에 연결된 이미지를 불러온다.
 
     -   ```html
         <picture>
