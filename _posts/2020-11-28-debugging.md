@@ -98,10 +98,7 @@
 -   [감소 된 테스트 케이스 : Reduced Test Cases][reduced test cases]
 -   [최소한의 재현 가능한 예제를 만드는 방법 : How to create a Minimal, Reproducible Example][how to create a minimal, reproducible example]
 
-[Debugging Techniques]: [https://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html]
-
-[debugging-tips-tricks]: [https://css-tricks.com/debugging-tips-tricks/]
-
-[How to create a Minimal, Reproducible Example]: [https://stackoverflow.com/help/minimal-reproducible-example]
-
-[reduced test cases]: (https://css-tricks.com/reduced-test-cases/)
+[debugging techniques]: https://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html
+[debugging-tips-tricks]: https://css-tricks.com/debugging-tips-tricks/
+[how to create a minimal, reproducible example]: https://stackoverflow.com/help/minimal-reproducible-example
+[reduced test cases]: https://css-tricks.com/reduced-test-cases/
