@@ -8,6 +8,8 @@
     -   미래가 아닌 현재를 보고 뽑는다
     -   역할 조직에서는 내가 지금 무엇을 잘하는 사람인지를 나타내 주는 개인 브랜딩이 중요하다.
 
+-   [리모트 리딩 방법: How to lead with clarity and empathy in the remote world](https://stackoverflow.blog/2020/11/05/how-to-lead-with-clarity-and-empathy-in-the-remote-world/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
+
 ### 인터뷰
 
 -   내가 지금까지 면접을 보면서, 기존의 코드를 보여주면서 문제점을 찾고 그 문제를 해결하라고 요청받은 적이 없다는 사실이 안타깝다. [link](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)

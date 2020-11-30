@@ -21,6 +21,7 @@
 
 -   [ ] [awesome-typescript-korean](https://github.com/typescript-kr/awesome-typescript-korean)
 -   [ ] [typescript-kr.github.io](https://typescript-kr.github.io/)
+-   [ ] [Performance](https://github.com/microsoft/TypeScript/wiki/Performance)
 
 #### React
 
@@ -65,3 +66,17 @@
 ### 학습법
 
 -   [ ] [[번역] 탁월한 프론트엔드 엔지니어가 되는 법](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
+
+### SAP
+
+-   [Podcast 284: pros and cons of the SPA](https://stackoverflow.blog/2020/11/06/podcast-284-pros-and-cons-of-the-spa/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
+
+### 분류 전
+
+-   [공유는 문화다](https://techhtml.github.io/blog/2016/05/developer)
+
+-   [THE STARTUP BIBLE](https://www.thestartupbible.com/)
+
+    -   BIBLE 는 아니다 읽어 볼만 하다
+
+-   [사업 아이디어를 찾는 5가지 방법](http://tkim.co/2020/11/10/7ways-for-startup-ideas/)
