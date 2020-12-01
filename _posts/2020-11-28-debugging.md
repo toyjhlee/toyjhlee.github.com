@@ -94,11 +94,16 @@
         -   마지막으로 알고리즘에서 개념적 오류를 나타내는 버그는 수정하기 가장 어렵습니다
         -   프로그래머는 알고리즘의 논리를 다시 생각하고 수정해야합니다.
 
--   [디버깅 팁과 요령][debugging-tips-tricks]
+-   [디버깅 팁과 요령][debugging tips tricks]
 -   [감소 된 테스트 케이스 : Reduced Test Cases][reduced test cases]
 -   [최소한의 재현 가능한 예제를 만드는 방법 : How to create a Minimal, Reproducible Example][how to create a minimal, reproducible example]
+-   [작은 프로그램을 디버깅하는 방법][how to debug small programs]
+-   [더 간단한 문제 찾기][find a simpler problem]
+    -   문제를 해결할 수 없다면 해결할 수있는 더 쉬운 문제가 있습니다. 그것을 찾아라.
 
 [debugging techniques]: https://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html
-[debugging-tips-tricks]: https://css-tricks.com/debugging-tips-tricks/
+[debugging tips tricks]: https://css-tricks.com/debugging-tips-tricks/
 [how to create a minimal, reproducible example]: https://stackoverflow.com/help/minimal-reproducible-example
 [reduced test cases]: https://css-tricks.com/reduced-test-cases/
+[how to debug small programs]: https://ericlippert.com/2014/03/05/how-to-debug-small-programs/
+[find a simpler problem]: https://ericlippert.com/2014/03/21/find-a-simpler-problem/
