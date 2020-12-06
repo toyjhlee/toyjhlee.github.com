@@ -80,3 +80,5 @@
     -   BIBLE 는 아니다 읽어 볼만 하다
 
 -   [사업 아이디어를 찾는 5가지 방법](http://tkim.co/2020/11/10/7ways-for-startup-ideas/)
+
+-   [WAI-ARIA 바르게 사용하기 5부: aria-hidden, ARIA-Modal, presentation 역할 및 none 역할 바르게 사용하기](https://nuli.navercorp.com/community/article/1132937?email=true)

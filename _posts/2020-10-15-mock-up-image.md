@@ -12,3 +12,7 @@ categories: engineerin
     -   TRANSPARENT BASE64 PNG PIXEL GENERATOR
 -   [지정된 width, height 로 이미지 반환](https://lorempixel.com/)
 -   [Placeholder React Component](https://github.com/buildo/react-placeholder)
+
+### 목업 비디오
+
+-   [public test videos · GitHub](https://gist.github.com/jsturgis/3b19447b304616f18657)

@@ -28,6 +28,40 @@ Test Runner Test Mathcher Test Mock
 -   [testing-library / jest-dom - Custom matchers](https://github.com/testing-library/jest-dom#table-of-contents)
 -   [examples](https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples)
 
+-   [React Unit Test — react-testing-library, 너를 알아가는 시간](https://medium.com/@juyeon.kate/react-unit-test-react-testing-library-%EB%84%88%EB%A5%BC-%EC%95%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%8B%9C%EA%B0%84-ab4ce30e6398)
+
+    -   Enzyme 에서 react-testing-library 변경 관련
+
+-   `ReferenceError: document is not defined`
+
+    -   message
+
+        ```
+        The error below may be caused by using the wrong test environment, see https://jestjs.io/docs/en/configuration#testenvironment-string.
+        Consider using the "jsdom" test environment.
+
+        ReferenceError: document is not defined
+        ```
+
+    -   해결방법
+
+        -   [ReferenceError: document is not defined #422](https://github.com/testing-library/react-testing-library/issues/422#issuecomment-518007141)
+
+        1. testEnvironment 를 node -> jsdom 으로 변경 in package.json
+        2. jest 재 실행
+
+-   `Property 'toBeInTheDocument' does not exist on type 'Matchers<any>`
+
+    -   message
+        ```
+        Property 'toBeInTheDocument' does not exist on type 'JestMatchersShape<HTMLElement[], Matchers<void, HTMLElement[]>, Matchers<Promise<void>, HTMLElement[]>>'.
+        ```
+    -   해결방법
+
+        -   [Property 'toBeInTheDocument' does not exist on type 'Matchers<any>'](https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany)
+
+        -   `import '@testing-library/jest-dom/extend-expect`
+
 ### jest
 
 -   [daleseo.com](https://www.daleseo.com/jest-before-after/)
