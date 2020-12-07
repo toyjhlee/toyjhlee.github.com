@@ -2,7 +2,6 @@
 
 -   디자이너와 디자인시스템 구축
 -   불명확한 목표가 있을 때 의견을 취합해 POC 제작
--
 
 ### 역삼
 
@@ -25,7 +24,16 @@
 
 ### 선릉
 
--
+-   styled-components 와 module.scss 사용
+    -   이유 styled-components 로 만들어내는 style class 의 style 중복을 줄이고자
+    ```
+        const Button = styled.button.attrs((props: ButtonProps) => {
+        return {
+            ...props,
+            className: [commonStyle.buttonInitStyle, commonStyle.buttonDefaultStyle].join(' '),
+        }
+    })``
+    ```
 
 ### 장점
 
