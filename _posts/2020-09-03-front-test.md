@@ -65,11 +65,27 @@ Test Runner Test Mathcher Test Mock
 ### jest
 
 -   [daleseo.com](https://www.daleseo.com/jest-before-after/)
+
     -   [Jest로 기본적인 테스트 작성하기](https://www.daleseo.com/jest-basic/)
     -   [Jest로 테스트 전/후 처리하기](https://www.daleseo.com/jest-before-after/)
     -   [Jest로 비동기 코드 테스트 작성하기](https://www.daleseo.com/jest-async/)
     -   [[Jest] jest.fn(), jest.spyOn() 함수 모킹](https://www.daleseo.com/jest-fn-spy-on/)
     -   [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
+
+-   [snapshot-testing](https://jestjs.io/docs/en/snapshot-testing)
+    -   [왜 스냅 샷 테스트인가?](https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing)
+        -   스냅 샷 통합 테스트가 해결하는 엔드 투 엔드 테스트에서 많은 문제를 발견했습니다.
+            -   스냅 샷 테스트가 시각적 회귀 테스트 대비 장점
+                -   결함 없음
+                -   빠른 반복 속도
+                -   디버깅
+    -   -u 플래그를 사용하여 스냅 샷을 다시 생성 할 수도 있습니다
+    -   toMatchInlineSnapshot
+        -   스냅 샷 값이 소스 코드에 자동으로 다시 기록된다는 점을 제외하면 외부 스냅 샷 ( 파일) 과 동일하게 작동합니다 . 즉, 올바른 값이 기록되었는지 확인하기 위해 외부 파일로 전환하지 않고도 자동으로 생성 된 스냅 샷의 이점을 얻을 수 있습니다.
+
+### visual regression testing(시각적 회귀 테스트)
+
+    - [BackstopJS](https://github.com/garris/BackstopJS)
 
 ### robinwieruch
 
