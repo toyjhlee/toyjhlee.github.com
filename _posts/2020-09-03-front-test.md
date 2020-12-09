@@ -85,7 +85,11 @@ Test Runner Test Mathcher Test Mock
 
 ### visual regression testing(시각적 회귀 테스트)
 
-    - [BackstopJS](https://github.com/garris/BackstopJS)
+-   [BackstopJS](https://github.com/garris/BackstopJS)
+
+### E2E
+
+-   [E2E 테스트와 나이트왓치](https://blog.coderifleman.com/2016/06/17/e2e-test-and-nightwatch/)
 
 ### robinwieruch
 

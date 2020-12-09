@@ -11,9 +11,12 @@
   - 제한 적으로 사용 - css 를 리펙토링 할 때
 
 - 부족함
+
   - 일을 처리하는 것에 급급해 새로운 기술에 도입하는데 보수적이었다
   - 유하지 못 했음
   - 개발 외 적으로 구성원들의 의견을 반영하지 못 했음
+
+- css, html, javascript
 
 ### 역삼
 
@@ -39,6 +42,10 @@
 
   - enzyme, react-test-library 사용
   - 통과가 push 필수 조건
+
+- next.js 로 홈페이지 구축
+- 회사관련 react framework 제작, 업데이트 환경 구축
+- css, html, javascript
 
 - 부족함
   - js 에 대비 css 의 경험이 부족함
