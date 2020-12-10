@@ -34,21 +34,20 @@ categories: engineering
             }
         ```
 
-    4. .prettierrc.js 에 아래 코드 추가
+    4. .prettierrc.json 에 kcd-scripts/prettier 를 복사
 
+    5. .prettierrc.json 커스텀
         ```javascript
-        module.exports = Object.assign(require('kcd-scripts/prettier')
-        ```
-
-    5. .prettierrc.js 커스텀
-        ```javascript
-        module.exports = Object.assign(require('kcd-scripts/prettier'), {
+        {
             tabWidth: 4,
             printWidth: 120,
-        })
+        }
         ```
-    6. settings.json // vs-code
+    6. @trivago/prettier-plugin-sort-imports 추가
+    7. settings.json // vs-code
+
         - save 시 prettier 가 동작하지 않아서 다음을 추가했다 esbenp.prettier-vscode
+
         ```javascript
         {
           "window.zoomLevel": 0,

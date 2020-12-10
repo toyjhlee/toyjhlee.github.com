@@ -113,3 +113,17 @@ You cannot publish over the previously published version. Try bumping the versio
     -   Tree Shaking은 사용하지 않는 코드를 제거함으로써 용량을 줄일 수 있는 방식입니다.
 
 -   [Webpack 4의 Tree Shaking에 대한 이해](https://huns.me/development/2265)
+
+#### 에러
+
+```
+Error: 'typeOf' is not exported by node_modules/react-is/index.js, imported by node_modules/styled-components/dist/styled-components.esm.js
+```
+
+#### 원인
+
+-   모르겠다
+
+### 해결
+
+-   [github](https://github.com/styled-components/styled-components/issues/3256#issuecomment-694144760)
