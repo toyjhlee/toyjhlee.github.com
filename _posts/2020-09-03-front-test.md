@@ -1,4 +1,4 @@
-#### 도입부
+### 도입부
 
 -   행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]
 -   하나의 문제는 하나의 원인으로 이루어 지지 않는다
@@ -6,6 +6,15 @@
 
 -   에러 `[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]`
     -   해결 `import 'resize-observer-polyfill/dist/ResizeObserver.global'`
+
+### [toast UI: 테스트](https://ui.toast.com/fe-guide/ko_TEST)
+
+-   단위 테스트
+    -   주로 모듈 단위
+-   통합 테스트
+    -   두 개 이상의 모듈이 연결된 상태를 테스트
+-   E2E 테스트
+    -   실제 사용자의 관점에서 테스트를 진행하며, 그런 의미에서 기능테스트 혹은 UI 테스트라고 불리기도 한다
 
 ### 용어 정리
 
@@ -73,6 +82,7 @@ Test Runner Test Mathcher Test Mock
     -   [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
 
 -   [snapshot-testing](https://jestjs.io/docs/en/snapshot-testing)
+
     -   [왜 스냅 샷 테스트인가?](https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing)
         -   스냅 샷 통합 테스트가 해결하는 엔드 투 엔드 테스트에서 많은 문제를 발견했습니다.
             -   스냅 샷 테스트가 시각적 회귀 테스트 대비 장점
@@ -83,13 +93,39 @@ Test Runner Test Mathcher Test Mock
     -   toMatchInlineSnapshot
         -   스냅 샷 값이 소스 코드에 자동으로 다시 기록된다는 점을 제외하면 외부 스냅 샷 ( 파일) 과 동일하게 작동합니다 . 즉, 올바른 값이 기록되었는지 확인하기 위해 외부 파일로 전환하지 않고도 자동으로 생성 된 스냅 샷의 이점을 얻을 수 있습니다.
 
+-   [Jest — How to Use Extend with TypeScript](https://medium.com/javascript-in-plain-english/jest-how-to-use-extend-with-typescript-4011582a2217)
+
+    ```
+    declare global {
+        namespace jest {
+            interface Matchers<R> {
+                withOut(expected: any): R
+            }
+        }
+    }
+
+    expect.extend({
+        withOut(actual: any, expected: any) {
+            const pass = actual % expected === 0
+            const message = pass
+                ? () => `expected ${actual} not to be without by ${expected}`
+                : () => `expected ${actual} to be without by ${expected}`
+
+            return {message, pass}
+        }
+    })
+    ```
+
 ### visual regression testing(시각적 회귀 테스트)
 
 -   [BackstopJS](https://github.com/garris/BackstopJS)
 
 ### E2E
 
+-   [E2E 테스트](https://ui.toast.com/fe-guide/ko_TEST#e2e-%ED%85%8C%EC%8A%A4%ED%8A%B8)
 -   [E2E 테스트와 나이트왓치](https://blog.coderifleman.com/2016/06/17/e2e-test-and-nightwatch/)
+-   [Selenium에서 Cypress로 갈아탄 후기](https://medium.com/hbsmith/selenium%EC%97%90%EC%84%9C-cypress%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%84-%ED%9B%84%EA%B8%B0-324f224c14db)
+    -   결론은 Cypress가 프런트엔드 개발자를 대상으로 한다는것과 Selenium은 QA개발자를 대상으로 한다는 것이 핵심이었다고 할 수 있다.
 
 ### robinwieruch
 
