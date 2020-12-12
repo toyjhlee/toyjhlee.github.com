@@ -379,7 +379,12 @@ console.log(Symbol('foo') === Symbol('foo'));
     -   정규표현식 심볼
         -   match, replace, search, split
     -   그 외 심볼들
-        -   [Symbol.hasInstance](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance), [Symbol.isConcatSpreadable](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/isConcatSpreadable), [Symbol.unscopables](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables), [Symbol.species](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species), [Symbol.toPrimitive](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive), [Symbol.toStringTag](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag)
+        -   [Symbol.hasInstance](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance)
+        -   [Symbol.isConcatSpreadable](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/isConcatSpreadable)
+        -   [Symbol.unscopables](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables)
+        -   [Symbol.species](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species)
+        -   [Symbol.toPrimitive](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive)
+        -   [Symbol.toStringTag](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag)
 -   메서드
     -   [Symbol.for(key)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for)
         -   주어진 키(key)로 현재 존재하는 심볼을 검색하고 찾으면 반환합니다. 존재하지 않으면 주어진 키로 전역 심볼 레지스트리에 새로운 심볼을 생성하고 그 심볼을 반환합니다.
