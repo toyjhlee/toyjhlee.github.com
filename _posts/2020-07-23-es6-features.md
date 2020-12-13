@@ -42,9 +42,9 @@ categories: engineering
 
 4. Extended Parameter Handling
 
-    - Default Parameter Values
-    - Rest Parameter
-    - Spread Operator
+    - [Default Parameter Values](http://es6-features.org/#DefaultParameterValues)
+    - [Rest Parameter](http://es6-features.org/#RestParameter)
+    - [Spread Operator](http://es6-features.org/#SpreadOperator)
 
 5. Template Literals
 

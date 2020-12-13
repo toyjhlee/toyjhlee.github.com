@@ -168,7 +168,7 @@ Test Runner Test Mathcher Test Mock
 
 [Difference between enzyme, ReactTestUtils and react-testing-library](https://stackoverflow.com/questions/54152562/difference-between-enzyme-reacttestutils-and-react-testing-library?answertab=active#tab-top)
 
-###
+### Redux
 
 -   [Redux useSelector and useDispatch hook test example](https://gist.github.com/krawaller/e5d40217658fa132f3c3904987e467cd)
 
@@ -182,6 +182,8 @@ Test Runner Test Mathcher Test Mock
 -   [RTL with redux](https://dev.to/fredrikbergqvist/mocking-redux-useselector-hook-2ale)
 
 -   [Testing Redux - reactjsday](https://noriste.github.io/reactjsday-2019-testing-course/book/react-testing-library/redux.html)
+
+### 분류 전
 
 -   [RTL로 HOC with React-Hooks 테스트 하기](https://pewww.tistory.com/25)
 

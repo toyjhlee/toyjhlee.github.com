@@ -67,7 +67,7 @@
       }
   })``
   ```
-- redux-persist 사용하여 서버로 보내기 전에 저장
+- redux-persist sessionStorage 에 저장
 
   - migrate
     - Data 로드 후 API 변경 되었을 때 대비
