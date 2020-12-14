@@ -4,6 +4,8 @@ date: 2020-05-30 09:18:00 +0900
 categories: engineerin
 ---
 
+> > [mock up file](./2020-12-14-mock.md) 로 이동 - 2020-12-14
+
 ### 목업 이미지
 
 -   [svg 를 base64 로 변환](https://base64.guru/converter/encode/image/svg)
