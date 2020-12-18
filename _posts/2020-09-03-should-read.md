@@ -82,3 +82,7 @@
 -   [사업 아이디어를 찾는 5가지 방법](http://tkim.co/2020/11/10/7ways-for-startup-ideas/)
 
 -   [WAI-ARIA 바르게 사용하기 5부: aria-hidden, ARIA-Modal, presentation 역할 및 none 역할 바르게 사용하기](https://nuli.navercorp.com/community/article/1132937?email=true)
+
+-   [조직의 실행 속도를 높일 수 있는 천억짜리 조언 – 당근마켓 김재현 대표님과의 대화](http://www.ingray.net/2019/12/17/a-billion-dollar-advice-to-speed-up-your-team/)
+
+-   [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
