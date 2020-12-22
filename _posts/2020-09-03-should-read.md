@@ -86,3 +86,6 @@
 -   [조직의 실행 속도를 높일 수 있는 천억짜리 조언 – 당근마켓 김재현 대표님과의 대화](http://www.ingray.net/2019/12/17/a-billion-dollar-advice-to-speed-up-your-team/)
 
 -   [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+
+-   [일 잘하는 사람들이 회사를 고르는 11가지 기준](https://brunch.co.kr/@mobiinside/2599)
+    -   일을 잘하는 이들은 '회사 또는 조직'을 잘 이용할 줄 안다. 회사가 원하는 것과 내가 원하는 것 사이의 간극을 최대한 줄여서 서로 손해보지 않기 위해 일을 한다. 그들은 '일을 잘 알아본다'. 이러한 수면 아래의 밑 작업(?)은 회사를 고르면서 시작된다.
