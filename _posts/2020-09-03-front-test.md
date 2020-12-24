@@ -1,11 +1,25 @@
-### 도입부
+---
+title: 'front-end Test'
+tags: ['test', 'tdd', 'bdd', 'ddd']
+---
 
--   행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]
--   하나의 문제는 하나의 원인으로 이루어 지지 않는다
--   테스트는 deterministic 해야한다. (언제 실행되든 항상 같은 결과를 내야한다.)
+## 도입부
 
--   에러 `[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]`
-    -   해결 `import 'resize-observer-polyfill/dist/ResizeObserver.global'`
+행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]
+
+하나의 문제는 하나의 원인으로 이루어 지지 않는다
+
+테스트는 deterministic 해야한다. (언제 실행되든 항상 같은 결과를 내야한다.)
+
+## issue
+
+`[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]`
+
+-   해결 `import 'resize-observer-polyfill/dist/ResizeObserver.global'`
+
+## 관련 글들
+
+### [정리 - 노트 클립 - 구글은 어떻게 소프트웨어를 테스트하는가](http://josephyeo.github.io/Testing/note_googletesting.html)
 
 ### [toast UI: 테스트](https://ui.toast.com/fe-guide/ko_TEST)
 
@@ -45,19 +59,21 @@
         -   브라우저의 새 탭 혹은 새 창을 열 수 없으며
         -   동일 출처(Same-origin) 정책을 벗어나는 페이지로는 이동을 할 수가 없다
 
-### 용어 정리
+## 용어 정리
 
 -   TDD: test driven development
 -   BDD: Behaviour-Driven Development
     -   어떤 행위를 해야한다. (should do someting)
     -   BDD는 비즈니스 요구사항에 집중하여 테스트 케이스
 
-### 경우에 관한 테스트 생각 by toyjhlee
+## 경우에 관한 테스트 생각 by toyjhlee
 
 -   lib
     -   lib 를 믿어라. input 이 올바른지 확인!
 
 Test Runner Test Mathcher Test Mock
+
+## Libaray
 
 ### reat-testing-library
 

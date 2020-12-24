@@ -1,1 +1,1 @@
--   [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+[다음으로 이동](/engineering/commit-convention/)

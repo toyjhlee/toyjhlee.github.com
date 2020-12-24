@@ -1,8 +1,9 @@
 ---
+title: 'css marsking'
 tags: ['clip', 'clip-path', 'mask']
 ---
 
-### CSS Masking
+## 문서
 
 시각적 요소의 일부 또는 전체를 숨기기위한 마스킹 및 클리핑을 포함한 수단을 정의하는 CSS 모듈입니다.
 
@@ -10,10 +11,6 @@ tags: ['clip', 'clip-path', 'mask']
 -   [Clipping and Masking in CSS](https://css-tricks.com/clipping-masking-css/)
     -   [codepen example](https://codepen.io/yoksel/embed/fsdbu?height=1500&theme-id=1&slug-hash=fsdbu&default-tab=result&user=yoksel&name=cp_embed_8)
         -   browser support
-
-#### CSS속성 Clipping과 Masking 차이점과 특징
-
-[CSS속성 Clipping과 Masking 차이점과 특징](https://shlee1353.github.io/2019/07/15/css-clip-mask/)
 
 #### clip
 
@@ -38,3 +35,7 @@ clip 속성은 현재 deprecated 되었으며, 새로운 속성이 추가되어 
 
 -   [mozilla mark](https://developer.mozilla.org/en-US/docs/Web/CSS/mask)
     -   [caniuse](https://caniuse.com/?search=mask)
+
+## CSS속성 Clipping과 Masking 차이점과 특징
+
+[CSS속성 Clipping과 Masking 차이점과 특징](https://shlee1353.github.io/2019/07/15/css-clip-mask/)

@@ -3,8 +3,6 @@ title: 'web api console'
 tags: ['console']
 ---
 
-# Web API console
-
 [mozilla](https://developer.mozilla.org/ko/docs/Web/API/Console)
 
 console 객체는 브라우저의 디버깅 콘솔(Firefox 웹 콘솔 등)에 접근할 수 있는 메서드를 제공합니다. 동작 방식은 브라우저마다 다르지만, 사실상 표준으로 여겨지는 기능도 여럿 있습니다.

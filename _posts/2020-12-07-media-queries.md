@@ -1,6 +1,11 @@
 ---
+title: 'media queries'
 tags: ['media', 'query']
 ---
+
+## 문서
+
+### [w3 Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/)
 
 ### [mozilla 미디어 쿼리 사용하기](https://developer.mozilla.org/ko/docs/Web/Guide/CSS/Media_queries)
 
@@ -55,5 +60,3 @@ tags: ['media', 'query']
 `@media (color) { ... }`
 
 `@media speech and (aspect-ratio: 11/5) { ... }`
-
-### [w3 Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/)

@@ -1,4 +1,6 @@
-Javascript Profiling
+---
+title: 'Javascript Profiling'
+---
 
 -   [자바스크립트 실행 속도 개선](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution?hl=ko)
     -   사용 : Chrome DevTools CPU Profiler

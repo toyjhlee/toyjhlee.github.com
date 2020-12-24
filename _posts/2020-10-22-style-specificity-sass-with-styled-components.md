@@ -1,4 +1,8 @@
-### sass, scss module 와 styled-components 의 우선순위 조정
+---
+title: 'sass width styled-components'
+---
+
+## sass, scss module 와 styled-components 의 우선순위 조정
 
 -   sass 의 css selector 의 우선 순위가 높아서 styled-components 의 style 에 important 를 적용해야 하는 현상이 생겼다
 -   이유는 sass module 를 가져오는 style tag 가 styled-components 의 style tag 보다 뒤에 위치해서

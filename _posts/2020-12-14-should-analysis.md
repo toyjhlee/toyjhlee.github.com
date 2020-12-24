@@ -1,4 +1,5 @@
 ---
+title: '분석해야 할 것들'
 tags: ['semantic']
 ---
 

@@ -1,3 +1,9 @@
+---
+title: 'infinite scroll'
+---
+
+## 참고
+
 ### Infinite-scroll use React hooks
 
 -   [link](https://y0c.github.io/2019/06/30/react-infinite-scroll/) [link](https://upmostly.com/tutorials/build-an-infinite-scroll-component-in-react-using-react-hooks) - 해결법이 좋아 보인다

@@ -1,23 +1,25 @@
-## 읽어야 할 내용들
+---
+title: '읽어야 할 내용들'
+---
+
+## naver helloworld
+
+### 2020년과 이후 JavaScript의 동향 - WebAssembly
 
 2020년과 이후 JavaScript의 동향 시리즈의 두 번째 글인 WebAssembly 동향을 공유합니다.
-
-2020-09-03-2020-jascript-writer-naver
-
-#### 2020년과 이후 JavaScript의 동향 - WebAssembly
 
 -   [ ] [1편: JavaScript(ECMAScript)](https://d2.naver.com/helloworld/4268738)
 -   [ ] [2편: WebAssembly](https://d2.naver.com/helloworld/8257914)
 
-#### 2019년과 이후 JavaScript의 동향 - WebAssembly
+### 2019년과 이후 JavaScript의 동향 - WebAssembly
 
 -   [ ] [2019년과 이후 JavaScript의 동향 - WebAssembly](https://d2.naver.com/helloworld/8786166)
 
-#### toast ui
+## toast ui
 
 -   [weekly-pick](https://ui.toast.com/weekly-pick/ko/)
 
-#### typescript
+## typescript
 
 -   [ ] [awesome-typescript-korean](https://github.com/typescript-kr/awesome-typescript-korean)
 -   [ ] [typescript-kr.github.io](https://typescript-kr.github.io/)
@@ -40,53 +42,53 @@
     -   스타일 가이드
     -   타입스크립트 컴파일러 구조
 
-#### React
+## React
 
 [다음으로 이동](/react)
 
-#### Svelte
+## Svelte
 
 [WhyReact.md](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)
 
 -   Svelte 를 이야기 하면서 설명
 
-#### 데이터 과학
+## 데이터 과학
 
 -   [ ] [가구당 가계수지 - 10 분위별](https://statkclee.github.io/viz/viz-household-balance-deciles.html#major-surplus)
 
-#### Rico's cheatsheets
+## Rico's cheatsheets
 
 -   [ ] [Jest cheatsheet](https://devhints.io/jest)
 -   [ ] [Markdown cheatsheet](https://devhints.io/markdown)
 
-### TEST
+## TEST
 
--   [ ] [정리 - 노트 클립 - 구글은 어떻게 소프트웨어를 테스트하는가](http://josephyeo.github.io/Testing/note_googletesting.html)
+[다음으로 이동](/front-test)
 
-### Svelte
+## Svelte
 
 -   [ ] [Svelte 의 장단점](https://gist.github.com/rabelais88/19bfe8dfd29d901554389f0a8cc8947a)
 
-### javascript
+## javascript
 
 -   [ ] [The 16 JavaScript debugging tips you probably didn’t know](https://raygun.com/learn/javascript-debugging-tips?utm_medium=newsletter&utm_source=javascriptweekly&utm_campaign=cooperpress&utm_content=article)
 
 -   [ ] [MDN Web Developer Needs Assessment 2019](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Web-DNA-Report-2019.pdf)
 
-### news
+## news
 
 -   [ ] [The StartUp Bible](https://www.thestartupbible.com/)
 -   [ ] [Startup Lessons](http://tkim.co/)
 
-### 학습법
+## 학습법
 
 -   [ ] [[번역] 탁월한 프론트엔드 엔지니어가 되는 법](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
 
-### SAP
+## SAP
 
 -   [Podcast 284: pros and cons of the SPA](https://stackoverflow.blog/2020/11/06/podcast-284-pros-and-cons-of-the-spa/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
 
-### 분류 전
+## 분류 전
 
 -   [공유는 문화다](https://techhtml.github.io/blog/2016/05/developer)
 

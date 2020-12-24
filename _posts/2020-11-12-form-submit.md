@@ -1,4 +1,8 @@
-### Submit
+---
+title: 'html form'
+---
+
+## Submit
 
 -   나는 form.submit 선호한다.
 -   react 에서 e.preventDefault() 가 동작히지 않는 경우가 발생했다고 들었다. 음 경우를 볼 수 없으니 ...

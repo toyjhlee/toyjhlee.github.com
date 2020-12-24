@@ -1,3 +1,9 @@
+---
+title: 'html pure tabs'
+---
+
+## 참고
+
 ### Radiobox:checked + css:not(:checked)
 
 -   [PureCSS Tabs](https://codepen.io/renatorib/pen/rlpfj)

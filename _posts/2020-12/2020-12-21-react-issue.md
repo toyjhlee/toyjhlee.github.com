@@ -3,7 +3,7 @@ title: 'react issue'
 tags: ['react', 'issue']
 ---
 
-# 개발 시 문제가 생긴 것을 적는다
+> 개발 시 문제가 생긴 것을 적는다
 
 ## `Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function. typescript`
 

@@ -4,9 +4,9 @@ date: 2020-07-21 16:29:00 +0900
 categories: engineering
 ---
 
-### 아래 URL 의 정보를 보기 내가 보기에 편하게 옮겨 적은 글
+> 아래 URL 의 정보를 보기 내가 보기에 편하게 옮겨 적은 글
 
-### 참고
+## 참고
 
 -   원문 [ECMAScript 6 — New Features: Overview & Comparison][참고]
 -   [번역1][번역1]
