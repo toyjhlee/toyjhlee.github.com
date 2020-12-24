@@ -7,6 +7,10 @@
 - Front-End 를 혼자로 시작해서 3명
   - 쥬니어를 리딩해서 프로젝트에 참여
 - visual regression testing(시각적 회귀 테스트) BackstopJS 사용
+- FLF frame work 제작
+
+  - nodejs 기반의 backend 와 fontend 에서 같이 사용
+  - ejs 기반
 
   - 제한 적으로 사용 - css 를 리펙토링 할 때
 
@@ -41,6 +45,11 @@
 - 조직원의 성장에 초점
 
   - 내가 하는게 아닌 문화화 과정을 만들어 진행하게 했다
+
+- homepage
+
+  - nextjs 로 개발
+    https://linewalks.com/
 
 - TEST 도입
 

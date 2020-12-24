@@ -22,10 +22,33 @@
 -   [ ] [awesome-typescript-korean](https://github.com/typescript-kr/awesome-typescript-korean)
 -   [ ] [typescript-kr.github.io](https://typescript-kr.github.io/)
 -   [ ] [Performance](https://github.com/microsoft/TypeScript/wiki/Performance)
+-   [ ] [TypeScript Deep Dive](https://radlohead.gitbook.io/typescript-deep-dive/getting-started)
+    -   시작하기
+    -   자바스크립트
+    -   미래의 자바스크립트
+    -   프로젝트
+    -   Node.js 시작하기
+    -   Browser 시작하기
+    -   타입스크립트 타입 시스템
+    -   JSX
+    -   Options
+    -   타입스크립트 에러
+    -   NPM
+    -   테스트
+    -   Tools
+    -   팁
+    -   스타일 가이드
+    -   타입스크립트 컴파일러 구조
 
 #### React
 
-[벨로퍼트와 함께하는 모던 리액트](https://react.vlpt.us/)
+[다음으로 이동](/react)
+
+#### Svelte
+
+[WhyReact.md](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)
+
+-   Svelte 를 이야기 하면서 설명
 
 #### 데이터 과학
 
@@ -39,14 +62,6 @@
 ### TEST
 
 -   [ ] [정리 - 노트 클립 - 구글은 어떻게 소프트웨어를 테스트하는가](http://josephyeo.github.io/Testing/note_googletesting.html)
-
-### react
-
--   [ ] [Hooks API Reference](https://ko.reactjs.org/docs/hooks-reference.html#usecontext)
--   [ ] [자신만의 Hook 만들기](https://ko.reactjs.org/docs/hooks-custom.html)
--   [ ] [Context 고급 안내서](https://ko.reactjs.org/docs/context.html)
-
--   [ ] [WhyReact.md](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)
 
 ### Svelte
 
