@@ -1,22 +1,24 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.19.2",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "name": "toyjhlee.github.com",
+  "version": "0.0.1",
+  "description": "삶은 나를 발견하는 과정이 아니라, 나를 창조하는 과정이다",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/toyjhlee/toyjhlee.github.com"
   },
   "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
+    "front-end",
+    "html",
+    "css",
+    "javascript",
+    "react"
   ],
-  "author": "Michael Rose",
+  "author": "toyjhlee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/toyjhlee/toyjhlee.github.com/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://toyjhlee.github.com/",
   "engines": {
     "node": ">= 0.10.0"
   },
