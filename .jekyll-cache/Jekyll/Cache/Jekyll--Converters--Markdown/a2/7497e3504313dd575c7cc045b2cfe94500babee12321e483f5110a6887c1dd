@@ -1,0 +1,11 @@
+I"m<blockquote>
+  <p>사용되는 utils 들 적어 놓는다</p>
+</blockquote>
+
+<h3 id="tolocalestring">toLocaleString</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Number(1000).toLocaleString('kr')</code></li>
+  <li>‘ES-es’ 포함 몇몇 언어는 되지 않는다 <a href="https://caniuse.com/?search=toLocaleString">caniuse</a></li>
+</ul>
+:ET

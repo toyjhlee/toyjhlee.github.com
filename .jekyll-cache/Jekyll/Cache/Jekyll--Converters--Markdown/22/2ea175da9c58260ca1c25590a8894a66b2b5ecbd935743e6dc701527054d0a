@@ -1,0 +1,90 @@
+I"A<h3 id="목업-이미지">목업 이미지</h3>
+
+<ul>
+  <li><a href="https://base64.guru/converter/encode/image/svg">svg 를 base64 로 변환</a>
+    <ul>
+      <li>base64 를 이미지로 변환 링크 제공</li>
+    </ul>
+  </li>
+  <li><a href="https://png-pixel.com/">color, width, height 를 지정해서 svg 생성</a>
+    <ul>
+      <li>TRANSPARENT BASE64 PNG PIXEL GENERATOR</li>
+    </ul>
+  </li>
+  <li><a href="https://lorempixel.com/">지정된 width, height 로 이미지 반환</a></li>
+  <li><a href="https://github.com/buildo/react-placeholder">Placeholder React Component</a></li>
+  <li><a href="https://pixabay.com/ko/">pixabay</a>
+    <ul>
+      <li>무료 이미지를 다운 받을 수 있다</li>
+    </ul>
+  </li>
+  <li>
+    <h2 id="placeholderpics"><a href="http://placeholder.pics/">placeholder.pics</a></h2>
+    <ul>
+      <li>background, textColor and border color, text 를 get param 으로 호출하면 svg 가 반환된다
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://placeholder.pics/svg/300x300/DEDEDE/555555/Old%20Image
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="목업-비디오">목업 비디오</h3>
+
+<ul>
+  <li><a href="https://gist.github.com/jsturgis/3b19447b304616f18657">public test videos · GitHub</a></li>
+  <li><a href="https://www.pexels.com/ko-kr/videos/">pexels</a>
+    <ul>
+      <li>10초 정도의 영상을 다운 받을 수 있다</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="목업-오디오">목업 오디오</h3>
+
+<ul>
+  <li>
+    <p><a href="https://www.soundhelix.com/audio-examples">Audio Examples</a></p>
+
+    <ul>
+      <li>proxy 설정 후에도 다음 에러 발생 <code class="language-plaintext highlighter-rouge">blocked by CORS policy: No 'Access-Control-Allow-Origin'</code></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://file-examples.com/index.php/sample-audio-files/sample-mp3-download/">file-examples</a></p>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="api-for-testing">API for testing</h3>
+
+<p><a href="https://jsonplaceholder.typicode.com/">jsonplaceholder</a></p>
+
+<ul>
+  <li>Free to use fake online REST API for testing and prototyping.</li>
+</ul>
+
+<p><a href="https://reqres.in/">reqres.in</a></p>
+
+<ul>
+  <li>Test your front-end against a real API</li>
+</ul>
+
+<h3 id="text-to-svg-path">text to SVG path</h3>
+
+<p><a href="https://danmarshall.github.io/google-font-to-svg-path/">Google font to SVG path</a></p>
+
+<ul>
+  <li>font 선택 후 text 를 입력하면 svg path 가 출력 된다</li>
+</ul>
+
+<h3 id="svg-editor">svg editor</h3>
+
+<p><a href="https://editor.method.ac/">Method Draw SVG Editor</a></p>
+
+<ul>
+  <li>심플한 editor</li>
+</ul>
+:ET

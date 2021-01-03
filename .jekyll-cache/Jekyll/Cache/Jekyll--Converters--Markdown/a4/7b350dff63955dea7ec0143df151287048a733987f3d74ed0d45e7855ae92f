@@ -1,0 +1,24 @@
+I"�<blockquote>
+  <p>이슈는 여기 적지 않는다</p>
+</blockquote>
+
+<h2 id="연결하려는-웹-사이트가-internet-explorer에서-작동하지-않습니다">연결하려는 웹 사이트가 Internet Explorer에서 작동하지 않습니다.</h2>
+
+<ul>
+  <li>
+    <p><a href="https://support.microsoft.com/ko-kr/office/%ec%97%b0%ea%b2%b0%ed%95%98%eb%a0%a4%eb%8a%94-%ec%9b%b9-%ec%82%ac%ec%9d%b4%ed%8a%b8%ea%b0%80-internet-explorer%ec%97%90%ec%84%9c-%ec%9e%91%eb%8f%99%ed%95%98%ec%a7%80-%ec%95%8a%ec%8a%b5%eb%8b%88%eb%8b%a4-8f5fc675-cd47-414c-9535-12821ddfc554?ui=ko-kr&amp;rs=ko-kr&amp;ad=kr">설명 링크</a></p>
+
+    <p>IE 에서 엣지를 오픈하는 코드</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const newWindow = window.open('microsoft-edge:' + document.location.href)
+newWindow?.close()
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="2020년-12월-31일에-adobe-flash-지원-종료">[2020년 12월 31일에 Adobe Flash 지원 종료]</h2>
+
+<ul>
+  <li><a href="https://docs.microsoft.com/ko-kr/lifecycle/announcements/adobe-flash-end-of-support">설명 링크</a></li>
+</ul>
+:ET

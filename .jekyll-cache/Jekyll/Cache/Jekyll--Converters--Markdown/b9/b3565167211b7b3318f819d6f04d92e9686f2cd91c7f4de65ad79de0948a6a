@@ -1,0 +1,53 @@
+I"�<h2 id="문서">문서</h2>
+
+<h3 id="aria-mozilla">ARIA <a href="https://developer.mozilla.org/ko/docs/Web/Accessibility/ARIA">mozilla</a></h3>
+
+<p><img src="https://www.w3.org/TR/wai-aria-1.1/img/rdf_model.svg" alt="Class diagram of the relationships described in the role data model." /> <a href="https://www.w3.org/WAI/PF/aria/roles#roles_categorization">출처</a></p>
+
+<ul>
+  <li>접근가능한 리치 인터넷 어플리케이션(Accessible Rich Internet Applications, ARIA)은 장애를 가진 사용자가 웹 콘텐츠와 웹 어플리케이션(특히 JavaScript를 사용하여 개발한 경우)에 더 쉽게 접근할 수 있는 방법을 정의하는 여러 특성을 말합니다.</li>
+  <li><a href="https://developer.mozilla.org/ko/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets">ARIA 소개</a></li>
+  <li><a href="http://zomigi.com/blog/videos-of-screen-readers-using-aria-updated/">스크린 리더기에서 ARIA를 어떻게 사용하는지에 대한 영상</a></li>
+  <li><a href="https://w3c.github.io/using-aria/">ARIA 사용하기</a></li>
+</ul>
+
+<h3 id="표준화를-위한-노고">표준화를 위한 노고</h3>
+
+<ul>
+  <li>WAI-ARIA 명세 <a href="https://www.w3.org/TR/wai-aria-1.1/">w3c</a></li>
+  <li>WAI-ARIA 작성 안내서 <a href="https://www.w3.org/TR/wai-aria-practices-1.1/">w3c</a></li>
+</ul>
+
+<h3 id="aria-developersgooglecom">ARIA developers.google.com</h3>
+
+<ul>
+  <li><a href="https://developers.google.com/web/fundamentals/accessibility/semantics-aria?hl=ko">ARIA 소개</a></li>
+  <li><a href="https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships?hl=ko">ARIA 레이블과 관계</a></li>
+  <li><a href="https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content?hl=ko">콘텐츠 숨기기 및 업데이트</a></li>
+  <li>
+    <p><a href="https://developer.mozilla.org/ko/docs/Web/Accessibility/ARIA/ARIA_Techniques">ARIA 사용하기: 규칙, 상태, 속성</a></p>
+
+    <p>ARIA는 요소에 적용 할 수있는 의미를 정의하며, 역할 (사용자 인터페이스 요소 유형 정의)과 역할에서 지원하는 상태 및 속성으로 구분됩니다. 작성자는 요소에 적절한 ARIA 의미 체계가 이미있는 경우 (적절한 HTML 요소 사용을 통해)가 아니라면 해당 요소의 수명주기 동안 ARIA 역할과 적절한 상태 및 속성을 요소에 할당해야합니다. ARIA 의미 체계를 추가하면 브라우저의 접근성 API에 추가 정보 만 노출되며 페이지의 DOM에는 영향을주지 않습니다.</p>
+
+    <ul>
+      <li><a href="https://developer.mozilla.org/ko/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute">aria-label 속성 사용</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="레진-wai-aria-가이드라인">레진 WAI-ARIA 가이드라인</h3>
+
+<ul>
+  <li><a href="https://github.com/lezhin/accessibility/blob/master/aria/README.md">레진 WAI-ARIA 가이드라인</a>
+    <ul>
+      <li>ARIA States 를 보기 싶게 적어 놓았다</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="wai-aria-11-cheat-sheet">WAI-ARIA 1.1 Cheat Sheet</h3>
+
+<ul>
+  <li><a href="https://www.digitala11y.com/wai-aria-1-1-cheat-sheet/">WAI-ARIA 1.1 Cheat Sheet</a></li>
+</ul>
+:ET

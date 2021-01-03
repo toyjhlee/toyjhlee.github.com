@@ -1,0 +1,57 @@
+I"�<h2 id="문서">문서</h2>
+
+<h3 id="background-clip-mozilla">background-clip <a href="https://developer.mozilla.org/ko/docs/Web/CSS/background-clip">mozilla</a></h3>
+
+<ul>
+  <li>CSS background-clip 속성은 요소의 배경이 테두리, 안쪽 여백, 콘텐츠 상자 중 어디까지 차지할 지 지정합니다.</li>
+  <li>IE9+, text : not IE <a href="https://caniuse.com/?search=background-clip">caniuse</a>
+    <ul>
+      <li>border-box
+        <ul>
+          <li>배경이 테두리의 바깥 경계까지 차지합니다. (Z축 순서 상 테두리 아래 위치)</li>
+        </ul>
+      </li>
+      <li>padding-box
+        <ul>
+          <li>배경이 안쪽 여백의 바깥 경계까지 차지합니다. 테두리 밑에는 배경을 그리지 않습니다.</li>
+        </ul>
+      </li>
+      <li>content-box
+        <ul>
+          <li>배경을 콘텐츠 상자에 맞춰 그립니다.</li>
+        </ul>
+      </li>
+      <li>text
+        <ul>
+          <li>배경을 전경 텍스트 위에만 그립니다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="background-origin-mozilla">background-origin <a href="https://developer.mozilla.org/ko/docs/Web/CSS/background-origin">mozilla</a></h3>
+
+<ul>
+  <li>CSS background-origin 속성은 배경의 원점을 테두리 시작점, 테두리 내부, 안쪽 여백 내부 중 하나로 지정합니다.</li>
+  <li>IE9+ <a href="https://caniuse.com/?search=background-origin">caniuse</a>
+    <ul>
+      <li>border-box
+        <ul>
+          <li>배경을 테두리 박스에 상대적으로 배치합니다.</li>
+        </ul>
+      </li>
+      <li>padding-box
+        <ul>
+          <li>배경을 안쪽 여백 박스에 상대적으로 배치합니다.</li>
+        </ul>
+      </li>
+      <li>content-box
+        <ul>
+          <li>배경을 콘텐츠 박스에 상대적으로 배치합니다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

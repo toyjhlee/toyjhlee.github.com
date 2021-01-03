@@ -1,0 +1,45 @@
+I"t<h2 id="종류">종류</h2>
+
+<h3 id="cookie">Cookie</h3>
+
+<ul>
+  <li>최대 4KB</li>
+</ul>
+
+<ol>
+  <li>Seesion cookies
+    <ul>
+      <li>만료일 포함하지 않음</li>
+      <li>탭 또는 창이 닫을 때 까지 유지</li>
+    </ul>
+  </li>
+  <li>Persistent cookies
+    <ul>
+      <li>만료일 까지 유지</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="localstorage">LocalStorage</h3>
+
+<ul>
+  <li>최대 5MB</li>
+</ul>
+
+<ol>
+  <li>삭제하기 전 까지 유지</li>
+  <li>primitives, object 저장</li>
+</ol>
+
+<h3 id="sessionstorage">SessionStorage</h3>
+
+<ol>
+  <li>탭 또는 창을 닫을 때 까지 유지</li>
+  <li>새로고침 시 유지</li>
+  <li>탭에 다수의 iframe 에서는 공유</li>
+</ol>
+
+<h2 id="사용법">사용법</h2>
+
+<p><a href="https://developer.mozilla.org/ko/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">Web Storage API 사용하기</a></p>
+:ET

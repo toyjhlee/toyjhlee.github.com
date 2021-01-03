@@ -1,0 +1,91 @@
+I"o<p><a href="/react-issue">react 관련 issue 다음을 참고 한다</a></p>
+
+<ul>
+  <li><a href="https://redux.js.org/">Redux - 공식홈</a></li>
+  <li><a href="https://ko.redux.js.org/">Redux - 공식홈 한글</a>
+    <ul>
+      <li><a href="https://ko.redux.js.org/introduction/getting-started/">Redux 시작하기</a></li>
+      <li><a href="https://ko.redux.js.org/recipes/structuring-reducers/refactoring-reducer-example/">기능적 분해와 리듀서 구성을 통해 리듀서 리팩토링하기</a></li>
+      <li><a href="https://ko.redux.js.org/basics/basic-tutorial">Basic Tutorial</a>
+        <ul>
+          <li>문서에서 가장 오래된 부분 중 하나로 업데이트 예정 - 기준[2020-12-12]</li>
+          <li><a href="https://ko.redux.js.org/basics/actions">액션</a>
+            <ul>
+              <li><a href="https://ko.redux.js.org/recipes/reducing-boilerplate/">보일러플레이트 줄이기</a>코드베이스를 깨끗하게 유지하기 위한 실용적인 팁들을</li>
+            </ul>
+          </li>
+          <li><a href="https://ko.redux.js.org/basics/reducers">리듀서</a></li>
+          <li><a href="https://ko.redux.js.org/basics/store">저장소</a></li>
+          <li><a href="https://ko.redux.js.org/basics/data-flow">데이터 흐흠</a></li>
+          <li><a href="https://ko.redux.js.org/basics/usage-with-react">React와 함께 사용하기</a></li>
+        </ul>
+      </li>
+      <li><a href="https://ko.redux.js.org/understanding/thinking-in-redux/motivation">동기</a></li>
+      <li><a href="https://ko.redux.js.org/understanding/history-and-design/prior-art">기존 기술</a>
+        <ul>
+          <li>Redux 는 기존 기술의 복합적인 유산입니다. Reduxs 를 기존 기술과 비교해보면 일부 패턴이나 기술적인 면에서 비슷한 점을 가지고 있습니다. 하지만 중요한 차이점도 있습니다. 이 절도에는 이러한 유사정과 차이점에 대해서 설명합니다.</li>
+          <li>Flux</li>
+          <li>Elm</li>
+          <li>Immutable</li>
+          <li>Baobab</li>
+          <li>Rx</li>
+        </ul>
+      </li>
+      <li><a href="https://ko.redux.js.org/introduction/ecosystem">생태계</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://react.vlpt.us/redux">벨로퍼트와 함께하는 모던 리액트: 리덕스</a></p>
+  </li>
+  <li><a href="https://velopert.com/3591">React + Redux 앱 테스트</a>
+    <ul>
+      <li>redux-actions 사용</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://pewww.tistory.com/24">Jest를 이용한 Reducer 테스트</a></p>
+
+    <ul>
+      <li>“리듀서는 액션을 이전의 상태에 적용한 후 새로운 상태를 반환해야 한다.”</li>
+      <li>redux-actions, redux-mock-store 사용 –&gt;</li>
+    </ul>
+  </li>
+  <li>
+    <p>localstorage 에 저장</p>
+
+    <ul>
+      <li>사용 <a href="https://github.com/rt2zz/redux-persist">redux-persist</a></li>
+      <li><a href="https://velog.io/@_jouz_ryul/LocalStorage-SessiongStorage-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Redux-Persist">예시</a></li>
+      <li>
+        <p><a href="https://github.com/rt2zz/redux-persist/issues/1015">reset 방법</a></p>
+      </li>
+      <li>반영 안 됨</li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (action.type === types.SET_TIMELINE_OFFSETX) {
+    state.offsetX = action.offsetX
+}
+
+return state
+</code></pre></div>    </div>
+
+    <ul>
+      <li>반영 됨</li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (action.type === types.SET_TIMELINE_OFFSETX) {
+    return {
+        offsetX: action.offsetX,
+    }
+}
+
+return state
+</code></pre></div>    </div>
+  </li>
+  <li><a href="https://redux-observable.js.org/">docs redux-observable</a>
+    <ul>
+      <li>RxJS 기반의 Rudux Middleware 다.</li>
+    </ul>
+  </li>
+</ul>
+:ET

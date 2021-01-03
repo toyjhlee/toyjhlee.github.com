@@ -1,0 +1,37 @@
+I"T<h2 id="issue">issue</h2>
+
+<h4 id="chrome-not-rendering-svg-referenced-via-img-tag">Chrome not rendering SVG referenced via &lt;img&gt; tag</h4>
+
+<ul>
+  <li>
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">width=</span><span class="s">"18"</span> <span class="na">height=</span><span class="s">"18"</span> <span class="na">viewBox=</span><span class="s">"0 0 18 18"</span> <span class="na">fill=</span><span class="s">"none"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;rect</span> <span class="na">x=</span><span class="s">"2"</span> <span class="na">y=</span><span class="s">"3"</span> <span class="na">width=</span><span class="s">"14"</span> <span class="na">height=</span><span class="s">"12"</span> <span class="na">rx=</span><span class="s">"1"</span> <span class="na">stroke=</span><span class="s">"white"</span> <span class="na">stroke-width=</span><span class="s">"2"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/svg&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>윈도우 + chrome 86.0.4240.198 react 이 나오지 않는다 rx 를 2로 하면 나온다</li>
+  <li>onload 후 css.width 를 넣으라 한다.</li>
+  <li>
+    <p>관련 <a href="https://stackoverflow.com/questions/10737166/chrome-not-rendering-svg-referenced-via-img-tag">stackoverflow</a></p>
+
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">jQuery</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">width</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mi">769</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">jQuery</span><span class="p">(</span><span class="dl">'</span><span class="s1">object#mysvg-logo</span><span class="dl">'</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">addEventListener</span><span class="p">(</span>
+        <span class="dl">'</span><span class="s1">load</span><span class="dl">'</span><span class="p">,</span>
+        <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+            <span class="nx">jQuery</span><span class="p">(</span><span class="dl">'</span><span class="s1">object#mysvg-logo</span><span class="dl">'</span><span class="p">).</span><span class="nx">css</span><span class="p">(</span><span class="dl">'</span><span class="s1">width</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">181px</span><span class="dl">'</span><span class="p">)</span>
+        <span class="p">},</span>
+        <span class="kc">true</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="관련-글">관련 글</h2>
+
+<p><a href="https://tympanus.net/codrops/2019/01/15/svg-filters-101/">SVG Filters 101</a></p>
+
+<ul>
+  <li>SVG 필터에 대한 시리즈의 첫 번째 기사입니다. 이 가이드는 그것들이 무엇인지 이해하고 그것들을 사용하여 자신 만의 시각 효과를 만드는 방법을 보여줍니다.</li>
+</ul>
+:ET

@@ -1,0 +1,81 @@
+I"�<ol>
+  <li>
+    <p>Remove trailing spaces automatically or with a shortcut</p>
+
+    <ul>
+      <li>Menu File &gt; Preference &gt; Settings
+        <ul>
+          <li>체크 : Files: Trim Trailing Whitespace</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Extensions</p>
+
+    <ul>
+      <li>GitLens</li>
+      <li>Vim</li>
+      <li>Markdown Preview Enhanced</li>
+      <li>Todo Tree</li>
+      <li>SVG Viewer</li>
+      <li>Prettier - Code Formatter</li>
+    </ul>
+  </li>
+  <li>
+    <p>Prettier - 설정</p>
+
+    <ol>
+      <li>extionsion Prettier - Code Formatter 설치</li>
+      <li>settings.josn 에 아래 속성 추가
+        <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="dl">"</span><span class="s2">editor.formatOnSave</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>sass 에 적용하지 않는다면git</p>
+
+        <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="dl">"</span><span class="s2">editor.formatOnSave</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+     <span class="dl">"</span><span class="s2">[scss]</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+     <span class="dl">"</span><span class="s2">editor.formatOnSave</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span>
+     <span class="p">}</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>.prettierrc.json 에 kcd-scripts/prettier 를 복사</p>
+      </li>
+      <li>.prettierrc.json 커스텀
+        <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">{</span>
+     <span class="nl">tabWidth</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+     <span class="nx">printWidth</span><span class="p">:</span> <span class="mi">120</span><span class="p">,</span>
+ <span class="p">}</span>
+</code></pre></div>        </div>
+      </li>
+      <li>@trivago/prettier-plugin-sort-imports 추가</li>
+      <li>
+        <p>settings.json // vs-code</p>
+
+        <ul>
+          <li>save 시 prettier 가 동작하지 않아서 다음을 추가했다 esbenp.prettier-vscode</li>
+        </ul>
+
+        <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">{</span>
+   <span class="dl">"</span><span class="s2">window.zoomLevel</span><span class="dl">"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">files.trimTrailingWhitespace</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">todo-tree.tree.showScanModeButton</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">editor.formatOnSave</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">editor.tabSize</span><span class="dl">"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">editor.detectIndentation</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">[scss]</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+       <span class="dl">"</span><span class="s2">editor.formatOnSave</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span>
+   <span class="p">},</span>
+   <span class="dl">"</span><span class="s2">editor.defaultFormatter</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">esbenp.prettier-vscode</span><span class="dl">"</span><span class="p">,</span>
+   <span class="dl">"</span><span class="s2">[javascript]</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+       <span class="dl">"</span><span class="s2">editor.defaultFormatter</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">esbenp.prettier-vscode</span><span class="dl">"</span>
+   <span class="p">}</span>
+   <span class="p">}</span>
+</code></pre></div>        </div>
+      </li>
+    </ol>
+  </li>
+</ol>
+:ET

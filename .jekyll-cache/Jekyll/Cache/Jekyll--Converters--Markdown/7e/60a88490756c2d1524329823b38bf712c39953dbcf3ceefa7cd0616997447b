@@ -1,0 +1,349 @@
+I"�=<h2 id="도입부">도입부</h2>
+
+<p>행복한 가정은 서로 닮았지만 불행한 가정은 모두 저마다의 이유로 불행하다 [톨스토이 - 안나 카레니나, 2011 번역 - 펭귄클래식코리아]</p>
+
+<p>하나의 문제는 하나의 원인으로 이루어 지지 않는다</p>
+
+<p>테스트는 deterministic 해야한다. (언제 실행되든 항상 같은 결과를 내야한다.)</p>
+
+<h2 id="issue">issue</h2>
+
+<p><code class="language-plaintext highlighter-rouge">[Error: This browser does not support 'ResizeObserver' out of the box. Please provide a polyfill as a prop.]</code></p>
+
+<ul>
+  <li>해결 <code class="language-plaintext highlighter-rouge">import 'resize-observer-polyfill/dist/ResizeObserver.global'</code></li>
+</ul>
+
+<h2 id="관련-글들">관련 글들</h2>
+
+<h3 id="정리---노트-클립---구글은-어떻게-소프트웨어를-테스트하는가"><a href="http://josephyeo.github.io/Testing/note_googletesting.html">정리 - 노트 클립 - 구글은 어떻게 소프트웨어를 테스트하는가</a></h3>
+
+<h3 id="toast-ui-테스트"><a href="https://ui.toast.com/fe-guide/ko_TEST">toast UI: 테스트</a></h3>
+
+<ul>
+  <li>단위 테스트
+    <ul>
+      <li>주로 모듈 단위</li>
+    </ul>
+  </li>
+  <li>통합 테스트
+    <ul>
+      <li>두 개 이상의 모듈이 연결된 상태를 테스트</li>
+    </ul>
+  </li>
+  <li>
+    <p>E2E 테스트</p>
+
+    <ul>
+      <li>실제 사용자의 관점에서 테스트를 진행하며, 그런 의미에서 기능테스트 혹은 UI 테스트라고 불리기도 한다</li>
+      <li>테스트 코드가 실제 코드 내부 구조에 영향을 받지 않기 때문에 큰 범위의 리팩토링에도 깨지지 않으며, 이를 통해 개발자들이 좀 더 자신감 있게 코드를 개선할 수 있도록 도와준다</li>
+      <li>테스트 작성하기 어렵다</li>
+      <li>테스트 사이의 중복이 발생한다</li>
+      <li>예상 밖의 문제들(네트워크 오류, 프로세스 대기로 인한 타임아웃)으로 인해 테스트가 가끔 실패하는 일이 발생</li>
+    </ul>
+  </li>
+  <li><a href="https://ui.toast.com/weekly-pick/ko_20171020">멀티 브라우저 테스트 환경 구축하기</a></li>
+  <li>
+    <p><a href="https://ui.toast.com/fe-guide/ko_TEST#selenium-webdriver">Selenium WebDriver</a></p>
+
+    <ul>
+      <li>
+        <p>WebDriver는 기본적으로 브라우저가 서버 역할을 하고 제어를 요청하는 기기(개발자 PC 혹은 CI 서버)가 클라이언트의 역할을 하는 서버-클라이언트 구조라고 할 수 있으며, 브라우저용 드라이버와 개발자용 클라이언트를 설치해서 사용하게 된다.</p>
+      </li>
+      <li>
+        <p>E2E 테스트의 단점을 그대로 갖고 있기 때문에 테스트를 작성하거나 유지 보수하는데 많은 비용이 들며, 이로 인해 개발자들이 개발 단계에서 사용하는 테스트 도구로써는 사실상 널리 활용되지 못하고 있다.</p>
+      </li>
+      <li>
+        <p>프레임워크</p>
+        <ul>
+          <li>Protractor : Angular 프로젝트를 위한 테스트 프레임워크</li>
+          <li>WebdriverJS : Selenium Webdriver의 정식 Node.js 구현체이며, 낮은 수준(Low-level)의 API를 제공한다.</li>
+          <li>NightWatch : Mocha 기반의 테스트 러너와 직관적인 API, CI 서버 통합 등의 다양한 기능을 지원한다.</li>
+          <li>WebdriverIO : 테스트 러너, 정적 웹 서버, CI 서버 통합, REPL 인터페이스 등 다양한 기능을 지원하며 커뮤니티가 가장 잘 활성화되어 있다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://ui.toast.com/fe-guide/ko_TEST#cypress">Cypress</a>
+    <ul>
+      <li>Cypress는 Selenium WebDriver와는 전혀 다른 목적을 갖는 도구이며, 정확히 프론트엔드 개발자들이 개발 단계에서 사용하기에 최적화된 도구라고 할 수 있다</li>
+      <li>WebDriver와는 다르게 실제 애플리케이션과 테스트 코드를 동일한 브라우저에서 실행하는 방식을 취하고 있다</li>
+      <li>브라우저 기반의 GUI를 사용하여 테스트의 실행 상태를 확인하고 디버깅할 수 있는 다양한 편의 기능을 제공한다.
+        <ul>
+          <li>실행된 모든 테스트 명령과 각 명령이 실행될 때의 UI 상태를 스냅샷 형태로 모두 저장하고 있어, 특정 시점의 UI 상태를 눈으로 확인할 수 있다</li>
+          <li>또한 전체 테스트 진행 과정을 동영상으로 저장하거나 테스트가 실패했을 때 자동으로 스크린샷을 남길 수 있어 테스트가 실패했을 때 원인을 파악하기가 매우 쉽다</li>
+          <li>게다가 브라우저에서 실행되기 때문에 필요한 경우 크롬 개발자 도구를 사용해 디버깅을 할 수도 있다.</li>
+        </ul>
+      </li>
+      <li>브라우저 내부에서 실행되는 방식에는 단점
+        <ul>
+          <li>브라우저의 새 탭 혹은 새 창을 열 수 없으며</li>
+          <li>동일 출처(Same-origin) 정책을 벗어나는 페이지로는 이동을 할 수가 없다</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="용어-정리">용어 정리</h2>
+
+<ul>
+  <li>TDD: test driven development</li>
+  <li>BDD: Behaviour-Driven Development
+    <ul>
+      <li>어떤 행위를 해야한다. (should do someting)</li>
+      <li>BDD는 비즈니스 요구사항에 집중하여 테스트 케이스</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="경우에-관한-테스트-생각-by-toyjhlee">경우에 관한 테스트 생각 by toyjhlee</h2>
+
+<ul>
+  <li>lib
+    <ul>
+      <li>lib 를 믿어라. input 이 올바른지 확인!</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Test Runner Test Mathcher Test Mock</p>
+
+<h2 id="libaray">Libaray</h2>
+
+<h3 id="reat-testing-library">reat-testing-library</h3>
+
+<ul>
+  <li><a href="https://testing-library.com/docs/dom-testing-library/api-queries">api-queries</a></li>
+  <li><a href="https://testing-library.com/docs/dom-testing-library/cheatsheet#queries">cheatsheet</a></li>
+  <li><a href="https://github.com/testing-library/jest-dom#table-of-contents">testing-library / jest-dom - Custom matchers</a></li>
+  <li>
+    <p><a href="https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples">examples</a></p>
+  </li>
+  <li>
+    <p><a href="https://medium.com/@juyeon.kate/react-unit-test-react-testing-library-%EB%84%88%EB%A5%BC-%EC%95%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%8B%9C%EA%B0%84-ab4ce30e6398">React Unit Test — react-testing-library, 너를 알아가는 시간</a></p>
+
+    <ul>
+      <li>Enzyme 에서 react-testing-library 변경 관련</li>
+    </ul>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">ReferenceError: document is not defined</code></p>
+
+    <ul>
+      <li>
+        <p>message</p>
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The error below may be caused by using the wrong test environment, see https://jestjs.io/docs/en/configuration#testenvironment-string.
+Consider using the "jsdom" test environment.
+
+ReferenceError: document is not defined
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>해결방법</p>
+
+        <ul>
+          <li><a href="https://github.com/testing-library/react-testing-library/issues/422#issuecomment-518007141">ReferenceError: document is not defined #422</a></li>
+        </ul>
+
+        <ol>
+          <li>testEnvironment 를 node -&gt; jsdom 으로 변경 in package.json</li>
+          <li>jest 재 실행</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Property 'toBeInTheDocument' does not exist on type 'Matchers&lt;any&gt;</code></p>
+
+    <ul>
+      <li>message
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Property 'toBeInTheDocument' does not exist on type 'JestMatchersShape&lt;HTMLElement[], Matchers&lt;void, HTMLElement[]&gt;, Matchers&lt;Promise&lt;void&gt;, HTMLElement[]&gt;&gt;'.
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>해결방법</p>
+
+        <ul>
+          <li>
+            <p>[Property ‘toBeInTheDocument’ does not exist on type ‘Matchers<any>'](https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany)</any></p>
+          </li>
+          <li>
+            <p><code class="language-plaintext highlighter-rouge">import '@testing-library/jest-dom/extend-expect</code></p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="jest">jest</h3>
+
+<ul>
+  <li>
+    <p><a href="https://www.daleseo.com/jest-before-after/">daleseo.com</a></p>
+
+    <ul>
+      <li><a href="https://www.daleseo.com/jest-basic/">Jest로 기본적인 테스트 작성하기</a></li>
+      <li><a href="https://www.daleseo.com/jest-before-after/">Jest로 테스트 전/후 처리하기</a></li>
+      <li><a href="https://www.daleseo.com/jest-async/">Jest로 비동기 코드 테스트 작성하기</a></li>
+      <li><a href="https://www.daleseo.com/jest-fn-spy-on/">[Jest] jest.fn(), jest.spyOn() 함수 모킹</a></li>
+      <li><a href="https://www.daleseo.com/jest-mock-modules/">[Jest] jest.mock() 모듈 모킹</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://jestjs.io/docs/en/snapshot-testing">snapshot-testing</a></p>
+
+    <ul>
+      <li><a href="https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing">왜 스냅 샷 테스트인가?</a>
+        <ul>
+          <li>스냅 샷 통합 테스트가 해결하는 엔드 투 엔드 테스트에서 많은 문제를 발견했습니다.
+            <ul>
+              <li>스냅 샷 테스트가 시각적 회귀 테스트 대비 장점
+                <ul>
+                  <li>결함 없음</li>
+                  <li>빠른 반복 속도</li>
+                  <li>디버깅</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>-u 플래그를 사용하여 스냅 샷을 다시 생성 할 수도 있습니다</li>
+      <li>toMatchInlineSnapshot
+        <ul>
+          <li>스냅 샷 값이 소스 코드에 자동으로 다시 기록된다는 점을 제외하면 외부 스냅 샷 ( 파일) 과 동일하게 작동합니다 . 즉, 올바른 값이 기록되었는지 확인하기 위해 외부 파일로 전환하지 않고도 자동으로 생성 된 스냅 샷의 이점을 얻을 수 있습니다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://medium.com/javascript-in-plain-english/jest-how-to-use-extend-with-typescript-4011582a2217">Jest — How to Use Extend with TypeScript</a></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>declare global {
+    namespace jest {
+        interface Matchers&lt;R&gt; {
+            withOut(expected: any): R
+        }
+    }
+}
+
+expect.extend({
+    withOut(actual: any, expected: any) {
+        const pass = actual % expected === 0
+        const message = pass
+            ? () =&gt; `expected ${actual} not to be without by ${expected}`
+            : () =&gt; `expected ${actual} to be without by ${expected}`
+
+        return {message, pass}
+    }
+})
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="visual-regression-testing시각적-회귀-테스트">visual regression testing(시각적 회귀 테스트)</h3>
+
+<ul>
+  <li><a href="https://github.com/garris/BackstopJS">BackstopJS</a></li>
+</ul>
+
+<h3 id="e2e">E2E</h3>
+
+<ul>
+  <li><a href="https://ui.toast.com/fe-guide/ko_TEST#e2e-%ED%85%8C%EC%8A%A4%ED%8A%B8">E2E 테스트</a></li>
+  <li><a href="https://blog.coderifleman.com/2016/06/17/e2e-test-and-nightwatch/">E2E 테스트와 나이트왓치</a></li>
+  <li><a href="https://medium.com/hbsmith/selenium%EC%97%90%EC%84%9C-cypress%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%84-%ED%9B%84%EA%B8%B0-324f224c14db">Selenium에서 Cypress로 갈아탄 후기</a>
+    <ul>
+      <li>결론은 Cypress가 프런트엔드 개발자를 대상으로 한다는것과 Selenium은 QA개발자를 대상으로 한다는 것이 핵심이었다고 할 수 있다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="robinwieruch">robinwieruch</h3>
+
+<ul>
+  <li><a href="https://www.robinwieruch.de/react-testing-library">react-testing-library</a></li>
+  <li><a href="https://www.robinwieruch.de/react-connected-component-test">How to test React-Redux connected Components</a></li>
+  <li><a href="https://www.robinwieruch.de/react-testing-jest-enzyme">How to test React with Jest &amp; Enzyme</a></li>
+</ul>
+
+<h3 id="form-관련-예시-및-설명">form 관련 예시 및 설명</h3>
+
+<ul>
+  <li><a href="https://www.daleseo.com/react-testing-library/">React Testing Library 사용법</a></li>
+</ul>
+
+<p><a href="https://stackoverflow.com/questions/54152562/difference-between-enzyme-reacttestutils-and-react-testing-library?answertab=active#tab-top">Difference between enzyme, ReactTestUtils and react-testing-library</a></p>
+
+<h3 id="redux">Redux</h3>
+
+<ul>
+  <li>
+    <p><a href="https://gist.github.com/krawaller/e5d40217658fa132f3c3904987e467cd">Redux useSelector and useDispatch hook test example</a></p>
+
+    <ul>
+      <li><a href="https://github.com/reduxjs/redux-mock-store">redux-mock-store</a> 사용
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">const configureStore = require('redux-mock-store').default</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://redux.js.org/recipes/writing-tests#connected-components">Writing Tests - Redux 공식홈</a></li>
+  <li><a href="https://velopert.com/3591">React + Redux 앱 테스트</a></li>
+  <li>
+    <p><a href="https://medium.com/better-programming/unit-testing-react-redux-hooks-ce7d69e1e834">Unit Testing React-Redux Hooks - enzyme</a></p>
+  </li>
+  <li>
+    <p><a href="https://dev.to/fredrikbergqvist/mocking-redux-useselector-hook-2ale">RTL with redux</a></p>
+  </li>
+  <li><a href="https://noriste.github.io/reactjsday-2019-testing-course/book/react-testing-library/redux.html">Testing Redux - reactjsday</a></li>
+</ul>
+
+<h3 id="분류-전">분류 전</h3>
+
+<ul>
+  <li><a href="https://pewww.tistory.com/25">RTL로 HOC with React-Hooks 테스트 하기</a></li>
+</ul>
+
+<h3 id="링크들">링크들</h3>
+
+<ul>
+  <li>
+    <p><a href="https://kdata.or.kr/info/info_04_view.html?field=&amp;keyword=&amp;type=techreport&amp;page=48&amp;dbnum=172089&amp;mode=detail&amp;type=techreport">입에 쓴 보약, TDD와 BDD - 2013.05 마소 VOL. 355-2013.05</a></p>
+
+    <ul>
+      <li>화성에서 온 TDD, 금성에서 온 BDD?</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://rinae.dev/posts/lessons-learned-testing-react-redux-apps-with-jest-and-enzyme-kr">번역 - 리액트 + 리덕스 앱을 Jest와 Enzyme으로 테스트 하며 얻은 교훈</a></p>
+
+    <ul>
+      <li>같은 환경이 아니어도 읽어볼 가치가 있다</li>
+    </ul>
+  </li>
+  <li>
+    <p>Enzyme’s TDD approach and react-testing-library’s BDD</p>
+  </li>
+  <li>
+    <p>삭제 가능 할 듯 <a href="https://blog.logrocket.com/enzyme-vs-react-testing-library-a-mindset-shift/">Enzyme vs. react-testing-library: A mindset shift</a></p>
+
+    <ul>
+      <li>React-testing-library
+        <ul>
+          <li>장점 : jest-dom 을 사용하여 좀 더 쉽게 만들 수 있음</li>
+          <li>단점 : state 에 접근 할 수 없음</li>
+        </ul>
+      </li>
+      <li>logrocket 소개</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://github.com/open-source-labs/spearmint">spearmint</a></p>
+  </li>
+</ul>
+:ET

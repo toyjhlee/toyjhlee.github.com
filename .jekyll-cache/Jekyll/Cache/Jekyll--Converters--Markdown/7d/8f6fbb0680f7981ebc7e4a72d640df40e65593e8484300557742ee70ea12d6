@@ -1,0 +1,22 @@
+I"�<h2 id="참고">참고</h2>
+
+<h3 id="infinite-scroll-use-react-hooks">Infinite-scroll use React hooks</h3>
+
+<ul>
+  <li><a href="https://y0c.github.io/2019/06/30/react-infinite-scroll/">link</a> <a href="https://upmostly.com/tutorials/build-an-infinite-scroll-component-in-react-using-react-hooks">link</a> - 해결법이 좋아 보인다</li>
+  <li><a href="https://im-developer.tistory.com/196">link</a></li>
+  <li>IntersectionObserver - Browser support](https://github.com/w3c/IntersectionObserver/tree/master/polyfill#browser-support) <a href="https://medium.com/@pks2974/intersection-observer-%EA%B0%84%EB%8B%A8-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-fc24789799a3">Image Lazy Load 구현해 보기</a></li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{</span><span class="na">threshold</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+<span class="kd">const</span> <span class="nx">observer</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">IntersectionObserver</span><span class="p">((</span><span class="nx">entries</span><span class="p">,</span> <span class="nx">observer</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">entries</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">entry</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">entry</span><span class="p">.</span><span class="nx">isIntersecting</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">observer</span><span class="p">.</span><span class="nx">unobserve</span><span class="p">(</span><span class="nx">entry</span><span class="p">.</span><span class="nx">target</span><span class="p">)</span>
+            <span class="nx">entry</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="nx">entry</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">dataset</span><span class="p">.</span><span class="nx">src</span>
+        <span class="p">}</span>
+    <span class="p">})</span>
+<span class="p">},</span> <span class="nx">options</span><span class="p">)</span>
+<span class="nx">observer</span><span class="p">.</span><span class="nx">observe</span><span class="p">(</span><span class="nb">Array</span><span class="p">.</span><span class="k">from</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="dl">'</span><span class="s1">lazy</span><span class="dl">'</span><span class="p">)))</span>
+</code></pre></div></div>
+:ET

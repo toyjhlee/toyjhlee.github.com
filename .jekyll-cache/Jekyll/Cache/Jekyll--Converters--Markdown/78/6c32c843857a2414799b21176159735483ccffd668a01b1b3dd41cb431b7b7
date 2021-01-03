@@ -1,0 +1,12 @@
+I"4<h2 id="문서">문서</h2>
+
+<p><a href="https://developer.mozilla.org/ko/docs/Web/API/FileReader">FileReader</a></p>
+
+<ul>
+  <li>객체는 웹 애플리케이션이 비동기적으로 데이터를 읽기 위하여 읽을 파일을 가리키는File 혹은 Blob 객체를 이용해 파일의 내용을(혹은 raw data버퍼로) 읽고 사용자의 컴퓨터에 저장하는 것을 가능하게 해줍니다.</li>
+</ul>
+
+<h2 id="example">example</h2>
+
+<p><a href="https://jsfiddle.net/eu81273/q7rjmpmj/">이미지 로드해서 썸네일 그리기 use canvas</a></p>
+:ET

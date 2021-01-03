@@ -1,0 +1,142 @@
+I"4<blockquote>
+  <p>여긴 css 에서 생각과 다르게 동작하는 사례과 해결책을 모아 둔다</p>
+</blockquote>
+
+<h2 id="overflow-hidden-with-border-radius-not-working-on-safari"><a href="https://stackoverflow.com/questions/49066011/overflow-hidden-with-border-radius-not-working-on-safari">Overflow: hidden with border radius not working on Safari</a></h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">will-change: transform;</code> <a href="https://developer.mozilla.org/ko/docs/Web/CSS/will-change">mozilla</a>
+    <ul>
+      <li>요소에 예상되는 변화의 종류에 관한 힌트를 브라우저에 제공케 한다.</li>
+      <li>이러한 종류의 최적화는 잠재적으로 성능 비용</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">-webkit-mask-image: -webkit-radial-gradient(white, black);</code>
+    <ul>
+      <li>list item 에 사용하게 되어서 <code class="language-plaintext highlighter-rouge">will-change</code> 대신 이 방법 사용</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="safari-에서-다음이-적용-되지-않는-경우가-있다">safari 에서 다음이 적용 되지 않는 경우가 있다</h2>
+
+<ul>
+  <li>background-repeat-x, background-repeat-y 가 젹용 되지 않는다.
+    <ul>
+      <li>repeat-x 나 repeat-y 사용</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ie11-에서-원이-안-되는-현상이-있었다-border-를-지정하니-작동하였다">IE11 에서 원이 안 되는 현상이 있었다. border: 를 지정하니 작동하였다.</h2>
+
+<ul>
+  <li>
+    <p>해결 전</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&amp;:before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+
+    top: 2px;
+    left: -7px;
+
+    background-color: #000;
+    border-radius: 10px;
+}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>해결 후</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&amp;:before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+
+    top: 2px;
+    left: -7px;
+
+    background-color: #000;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="ie11-max-height-max-width-not-working">IE11 max-height, max-width not working</h2>
+
+<p>아래 css 에 해당되는 Element 에 js object 를 적용하니 IE11 에서 max-height, max-width 가 적용되지 않았다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">initial</code> 가 적용되지 않는 걸로 추론하여 max-height 기본 값을 찾아서 지정했다 <a href="https://www.w3schools.com/cssref/pr_dim_max-height.asp">참고 w3schools max-height</a></p>
+
+<ul>
+  <li>
+    <p>해결 전</p>
+
+    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">{</span>
+    <span class="nl">max-height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+    <span class="nl">max-width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+
+    <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+    <span class="na">maxHeight</span><span class="p">:</span> <span class="dl">'</span><span class="s1">initial</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">maxWidth</span><span class="p">:</span> <span class="dl">'</span><span class="s1">initial</span><span class="dl">'</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>해결 후</p>
+    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">{</span>
+    <span class="nl">max-height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+    <span class="nl">max-width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+    <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+    <span class="na">maxHeight</span><span class="p">:</span> <span class="dl">'</span><span class="s1">none</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">maxWidth</span><span class="p">:</span> <span class="dl">'</span><span class="s1">none</span><span class="dl">'</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="ie11-svg-blur-에-overflow-hidden-not-working">IE11 svg blur 에 overflow: hidden not working</h2>
+
+<p>svg 로 blur 를 처리 했다. IE11 에서 부모의 다음 스타일이 적용되지 않았다</p>
+
+<ul>
+  <li>해결 전</li>
+</ul>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">oveflow</span><span class="o">:</span> <span class="nt">hidden</span><span class="o">;</span>
+</code></pre></div></div>
+
+<ul>
+  <li>해결 후</li>
+</ul>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">oveflow</span><span class="o">:</span> <span class="nt">hidden</span><span class="o">;</span>
+<span class="nt">position</span><span class="o">:</span> <span class="nt">relative</span><span class="o">;</span>
+</code></pre></div></div>
+
+<h2 id="다음의-경우-red-가-적용-될-줄-알았다--가상-선택자는-child-가-아닌가-보다">다음의 경우 red 가 적용 될 줄 알았다 … 가상 선택자는 child 가 아닌가 보다…</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>background-color: red;
+
+&amp;:hover {
+  background: inherit;
+}
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>background-color: red;
+
+&amp;:hover {
+  background: transparent;
+}
+</code></pre></div></div>
+:ET
