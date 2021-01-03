@@ -1,4 +1,0 @@
-I" <h2 id="참고-문서">참고 문서</h2>
-
-<p><a href="https://developer.mozilla.org/ko/docs/Mozilla/Tech/XUL/XUL_Tutorial/Scroll_Bars">Mozilla MDN</a> <a href="https://www.w3.org/TR/css-scrollbars-1/">w3c</a> <a href="https://codepen.io/devstreak/pen/dMYgeO">codepen 예제</a> <a href="https://github.com/malte-wessel/react-custom-scrollbars">react-custom-scrollbars</a> <a href="https://github.com/linewalks/MDwalks-UI/blob/ea57ffc2fdaaaa8174492b28804b0767b8a358aa/src/components/common/commonTag.js">linewalks UI: WrapperScrollBars</a></p>
-:ET

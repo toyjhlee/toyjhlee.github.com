@@ -1,4 +1,0 @@
-I"�<p>vue.2.5.3 IE 에서는</p>
-
-<p>Inline style 이 overflow-y 는 적용되지 않아서 :style=”{overflowY: ‘scroll’}” 로 했더니 적용 되었다</p>
-:ET
