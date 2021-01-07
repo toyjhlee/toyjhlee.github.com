@@ -107,4 +107,9 @@ title: '읽어야 할 내용들'
     -   [다음으로 이동](/front-end-checklist)
 
 -   [일 잘하는 사람들이 회사를 고르는 11가지 기준](https://brunch.co.kr/@mobiinside/2599)
+
     -   일을 잘하는 이들은 '회사 또는 조직'을 잘 이용할 줄 안다. 회사가 원하는 것과 내가 원하는 것 사이의 간극을 최대한 줄여서 서로 손해보지 않기 위해 일을 한다. 그들은 '일을 잘 알아본다'. 이러한 수면 아래의 밑 작업(?)은 회사를 고르면서 시작된다.
+
+## User Input developers.google.com
+
+[멋진 양식 만들기](https://developers.google.com/web/fundamentals/design-and-ux/input/forms?hl=ko) [사이트에 터치 추가](https://developers.google.com/web/fundamentals/design-and-ux/input/touch?hl=ko)

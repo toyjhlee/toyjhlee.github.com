@@ -43,3 +43,50 @@ const deviceSizes = {
     tabletL: '1024px',
 }
 ```
+
+## blog
+
+[medium.com](https://medium.com/styled-components)
+
+### [How styled-components works: A deep dive under the hood](https://medium.com/styled-components/how-styled-components-works-618a69970421)
+
+use styled-components v3.3.3
+
+#### BaseStyledComponent
+
+1. Evaluating tagged template
+2. Generating CSS class name. CSS 클래스 이름 생성 : [MurmurHash](https://www.wikiwand.com/en/MurmurHash) 알고리즘
+3. CSS Preprocessing. CSS 전처리 : [stylis CSS preprocessor](https://github.com/thysultan/stylis.js)
+4. Injecting CSS string into the page
+
+#### styled-components renders an element with 3 class names:
+
+1. this.props.className
+2. componentId
+3. generatedClassName
+
+#### Performance tips
+
+## API
+
+```
+const Div = styled.div``
+Div.styledComponentId // sc-fzoJus
+```
+
+## utils
+
+### get css. css 가져오기
+
+```
+const Div = styled.div``
+
+let result = []
+Div.componentStyle?.rules.forEach((expr, index) => {
+    const isFunc = typeof expr === 'function'
+    const value = isFunc ? expr(props) : expr
+
+    result.push(value)
+})
+
+```

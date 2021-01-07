@@ -49,3 +49,11 @@ tags: ['utils', 'detection']
         return scrollbarWidth
     }
     ```
+
+## Controll
+
+### 이동
+
+```
+window.scrollTo({ top: 1200, behavior: 'smooth' });
+```
