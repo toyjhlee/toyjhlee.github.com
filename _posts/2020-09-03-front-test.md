@@ -161,6 +161,23 @@ Test Runner Test Mathcher Test Mock
     })
     ```
 
+-   window 에 값 설정
+
+jest 실행 시 내부의 class 가 window 의 지정한 property 를 참조하는 경우 아래 방법으로는 undefind 가 발행한다
+
+```
+Object.defineProperty(window)
+```
+
+아래 방법으로 해야 한다
+
+```
+// setupTests
+window.name = {
+
+}
+```
+
 ### visual regression testing(시각적 회귀 테스트)
 
 -   [BackstopJS](https://github.com/garris/BackstopJS)
