@@ -90,3 +90,7 @@ Div.componentStyle?.rules.forEach((expr, index) => {
 })
 
 ```
+
+[CSS-in-JS에서 CSS-in-CSS로 바꿔야 하는 이유](https://blueshw.github.io/2020/09/14/why-css-in-css/)
+
+[CSS-in-JS(Styled Components) vs CSS-inCSS(CSS Modules) 성능 비교](https://blueshw.github.io/2020/09/27/css-in-js-vs-css-modules/)

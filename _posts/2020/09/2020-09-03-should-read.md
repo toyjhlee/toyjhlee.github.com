@@ -4,12 +4,14 @@ title: '읽어야 할 내용들'
 
 ## naver helloworld
 
-### 2020년과 이후 JavaScript의 동향 - WebAssembly
+### 2020년과 이후 JavaScript의 동향
 
 2020년과 이후 JavaScript의 동향 시리즈의 두 번째 글인 WebAssembly 동향을 공유합니다.
 
 -   [ ] [1편: JavaScript(ECMAScript)](https://d2.naver.com/helloworld/4268738)
 -   [ ] [2편: WebAssembly](https://d2.naver.com/helloworld/8257914)
+-   [ ] [3편: 라이브러리와 프레임워크 1](https://d2.naver.com/helloworld/7226235)
+-   [ ] [4편: 라이브러리와 프레임워크 2](https://d2.naver.com/helloworld/6951656)
 
 ### 2019년과 이후 JavaScript의 동향 - WebAssembly
 
