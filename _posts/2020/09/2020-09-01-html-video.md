@@ -16,7 +16,7 @@ title: 'html video'
 
 [fastSeek](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek)
 
-## EXample
+## Example
 
 [Example Playlist Files for use with HTTP Live Streaming](https://developer.apple.com/library/archive/technotes/tn2288/_index.html#//apple_ref/doc/uid/DTS40012238-CH1-I_FRAME_PLAYLIST)
 
