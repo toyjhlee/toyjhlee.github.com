@@ -6,6 +6,26 @@ title: 'html video'
 
 [HTMLMediaElement mozilla](https://developer.mozilla.org/ko/docs/Web/API/HTMLMediaElement)
 
+[MediaDevices.getUserMedia()](https://developer.mozilla.org/ko/docs/Web/API/MediaDevices/getUserMedia)
+
+-   미디어 입력 장치 사용 권한을 요청하며, 사용자가 수락하면 요청한 미디어 종류의 트랙을 포함한 MediaStream을 반환합니다
+-   IE 지원 안 함
+
+## blog
+
+[Capture Audio and Video in HTML5](https://www.html5rocks.com/ko/tutorials/getusermedia/intro/)
+
+-   소개하는 글
+-   getUserMedia()로 가는 길
+-   시작하기
+-   사진 찍기
+-   Applying Effects
+-   Web Audio API와 함께 getUserMedia 사용하기
+-   결론
+-   Additional resources
+
+[Validating Video Uploads On The Frontend](https://brettdewoody.com/video-dimensions-on-the-frontend/)
+
 ## Event
 
 [seeked event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeked_event)

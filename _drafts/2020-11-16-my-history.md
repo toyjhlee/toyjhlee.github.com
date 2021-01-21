@@ -1,5 +1,9 @@
 ## 이력
 
+### calender
+
+- SPA, front 단에서 Router 동작
+
 ### 청담
 
 - 5년 6개월 간의 스타트업의 시작부터 상장까지
@@ -12,7 +16,6 @@
 - FLF frame work 제작
 
   - nodejs 기반의 backend 와 fontend 에서 같이 사용
-  - ejs 기반
 
   - 제한 적으로 사용 - css 를 리펙토링 할 때
 
