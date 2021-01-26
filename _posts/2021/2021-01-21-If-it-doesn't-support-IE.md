@@ -26,6 +26,8 @@ title: 'IE 를 지원하지 않는다면'
 
 [background-clip](https://developer.mozilla.org/ko/docs/Web/CSS/background-clip)
 
+[env](https://developer.mozilla.org/en-US/docs/Web/CSS/env)
+
 <!-- [box-decoration-break](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break) -->
 
 -   [참조](/css-background)

@@ -4,7 +4,7 @@ title: 'debugging'
 
 ## 디버깅 방법
 
-나는 디버깅 방법에 대한 답변은 `이진탐색`을 이야기 했다. 듣는이는 와닫지 않는듯 보였다. 어떻게 하면 알려 줄 수 있을까하는 물음에 대한 설명들을 여기에 남긴다
+나는 디버깅 방법에 대한 답변은 `이진탐색`을 이야기 했다. 듣는이는 와닿지 않는 듯 보였다. 어떻게 하면 알려 줄 수 있을까하는 물음에 대한 설명들을 여기에 남긴다
 
 ### [검증 된 디버깅 전략을 사용하여 이상한 버그를 해결하는 방법](https://css-tricks.com/heres-how-i-solved-a-weird-bug-using-tried-and-true-debugging-strategies/)
 
@@ -13,10 +13,11 @@ title: 'debugging'
 3. 문제 단순화 'Problem simplification'
     - "버그와 관련이없는 코드 부분을 점진적으로 제거하는 접근 방식" [출처][debugging techniques]
 4. 문제 분리 'Isolating the issue'
-    ```
-    격리는 모든 디버깅에서 가장 강력한 핵심 원칙 일 수 있습니다. 우리의 코드베이스는 다양한 라이브러리, 프레임 워크로 확장 될 수 있으며 더 이상 프로젝트에서 작업하지 않는 사람들을 포함하여 많은 기여자를 포함 할 수 있습니다. 문제를 분리하면 문제의 중요하지 않은 부분을 천천히 제거하여 솔루션에 집중할 수 있습니다.
-    ```
+
+    > 격리는 모든 디버깅에서 가장 강력한 핵심 원칙 일 수 있습니다. 우리의 코드베이스는 다양한 라이브러리, 프레임 워크로 확장 될 수 있으며 더 이상 프로젝트에서 작업하지 않는 사람들을 포함하여 많은 기여자를 포함 할 수 있습니다. 문제를 분리하면 문제의 중요하지 않은 부분을 천천히 제거하여 솔루션에 집중할 수 있습니다.
+
     - [감소 된 테스트 케이스 : Reduced Test Cases][reduced test cases]
+
 5. 재현 가능한 최소한의 예시 'A minimal reproducible example'
     - [최소한의 재현 가능한 예제를 만드는 방법 : How to create a Minimal, Reproducible Example][how to create a minimal, reproducible example]
 6. 나누고 해결 'Divide and conquer'
@@ -29,9 +30,7 @@ title: 'debugging'
     2. 문제 분리, 재현 가능한 최소한의 예시
     3. 나누고 해결
 
-    ```
-    버그에 너무 많은 시간을 할애하면 프로그래머가 지치고 디버깅이 역효과를 낼 수 있습니다. 휴식을 취하고 마음을 비우십시오. 휴식을 취한 후 다른 관점에서 문제에 대해 생각하십시오.
-    ```
+    > 버그에 너무 많은 시간을 할애하면 프로그래머가 지치고 디버깅이 역효과를 낼 수 있습니다. 휴식을 취하고 마음을 비우십시오. 휴식을 취한 후 다른 관점에서 문제에 대해 생각하십시오.
 
 ## [디버깅 기법 : Debugging Techniques][debugging techniques]
 
