@@ -66,7 +66,11 @@ title: '읽어야 할 내용들'
 
 ## 학습법
 
--   [ ] [[번역] 탁월한 프론트엔드 엔지니어가 되는 법](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
+[[번역] 탁월한 프론트엔드 엔지니어가 되는 법](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
+
+[개발자의 평생공부](https://zdnet.co.kr/view/?no=20170616090644)
+
+['구루급' 개발자란...](https://brunch.co.kr/@supims/151?fbclid=IwAR3qo-ubS8qbgwP6ey8X_gBan9LgT4oU-0J3UC5kCZ57Yc2K6-02223ybI4)
 
 ## SAP
 
@@ -91,6 +95,10 @@ title: '읽어야 할 내용들'
 [일 잘하는 사람들이 회사를 고르는 11가지 기준](https://brunch.co.kr/@mobiinside/2599)
 
 -   일을 잘하는 이들은 '회사 또는 조직'을 잘 이용할 줄 안다. 회사가 원하는 것과 내가 원하는 것 사이의 간극을 최대한 줄여서 서로 손해보지 않기 위해 일을 한다. 그들은 '일을 잘 알아본다'. 이러한 수면 아래의 밑 작업(?)은 회사를 고르면서 시작된다.
+
+[인재 곡선 (The Curve of Talent)](https://dotty.org/2699083?fbclid=IwAR2hxq8qPukdIrnXJF18Nv4RUesqixbui8VvTpETZxMw4-FkhJvt-fFB5Qw)
+
+[스타트업에서 기술책임자로 살아가기](https://www.slideshare.net/lqez/ss-36301654?fbclid=IwAR0loXU9F4FgEGgGfh4r39a2atj_b5PbJUjfBaRH9EZZvbyU7i_uNZZZm2Y)
 
 ## User Input developers.google.com
 

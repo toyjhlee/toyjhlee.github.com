@@ -1,5 +1,13 @@
 ## Google 검색 센터
 
+### [Google 검색에서 사이트의 검색 가능성 높이기](https://developers.google.com/search/docs?hl=ko)
+
+[빠른 시작: Google 검색의 기본사항 알아보기](https://developers.google.com/search/docs/basics/get-started?hl=ko)
+
+[시작하기(초보자용)](https://developers.google.com/search/docs/beginner/get-started?hl=ko)
+
+[시작하기: 고급 사용자](https://developers.google.com/search/docs/advanced/guidelines/get-started?hl=ko)
+
 ### Google 검색에 내 웹사이트를 표시하는 방법
 
 [link](https://developers.google.com/search/?hl=ko)
