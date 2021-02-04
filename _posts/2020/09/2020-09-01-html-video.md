@@ -53,6 +53,13 @@ title: 'html video'
 -   Lottie is a mobile library for Web, and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!
 -   promo 에서 사용
 
+[lottie example](https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets1.lottiefiles.com%2Fprivate_files%2Flf30_amtyctks.json)
+
+```html
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_amtyctks.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop controls autoplay></lottie-player>
+```
+
 [Bodymovin - Export After Effects animations to HTML5](https://www.creativebloq.com/how-to/export-after-effects-animations-to-html5)
 
 [Adobe After Effects 사용 안내서 > 표현식 및 자동화](https://helpx.adobe.com/kr/after-effects/using/expression-language-reference.html#%ED%91%9C%ED%98%84%EC%8B%9DJavaScript%EC%97%94%EC%A7%84)
