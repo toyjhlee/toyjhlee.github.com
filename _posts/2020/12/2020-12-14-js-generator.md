@@ -17,9 +17,11 @@ yield 키워드는 제너레이터 함수 (function\* 또는 레거시 generator
 
 ```javascript
     function\* foo(){
-        var index = 0; while (index <= 2) // when index reaches 3,
-                                            // yield's done will be true
-                                            // and its value will be undefined; yield index++;
+        var index = 0;
+        while (index <= 2)  // when index reaches 3,
+                            // yield's done will be true
+                            // and its value will be undefined;
+            yield index++;
     }
 
     var iterator = foo();
