@@ -107,3 +107,7 @@ img 의 alt 값은 크롤링 대상이다. heading tag 가 없는 경우 img 의
 [Optimizing Single-Page Applications: make your JavaScript site SEO-compatible](https://www.mindk.com/blog/optimizing-single-page-applications/)
 
 [An SEO's survival guide to Single Page Applications (SPAs)](https://www.searchenginewatch.com/2018/04/09/an-seos-survival-guide-to-single-page-applications-spas/)
+
+## 텍스트 숨김. 텍스트 안 보이게
+
+[접근 가능한 숨김 텍스트](https://mulder21c.github.io/2019/03/22/screen-hide-text/)
