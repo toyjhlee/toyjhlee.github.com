@@ -121,3 +121,9 @@
 - css, html, javascript
 - 문화, 자동화, 프로세스
 - [mochajs 기어](https://github.com/mochajs/mocha/blob/v7.0.1/CHANGELOG.md#book-documentation-4)
+
+### 이력서 작성 시 참고
+
+[react-ultimate-resume](https://github.com/welovedevs/react-ultimate-resume)
+
+- 오픈 소스 맞춤형 개발자 이력서

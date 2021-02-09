@@ -35,3 +35,15 @@ title: 'IE 를 지원하지 않는다면'
 [참조 css-issue](/css-issue)
 
 [::placeholder](https://developer.mozilla.org/ko/docs/Web/CSS/::placeholder)
+
+-   아래 방법으로 사용 가능
+
+```
+:-ms-input-placeholde {}
+```
+
+[backdrop-filter](https://developer.mozilla.org/ko/docs/Web/CSS/backdrop-filter)
+
+> 요소 뒤 영역에 흐림이나 색상 시프트 등 그래픽 효과를 적용할 수 있는 속성입니다. 요소 "뒤"에 적용하기 때문에, 효과를 확인하려면 요소나 요소의 배경을 적어도 반투명하게는 설정해야 합니다.
+
+-   [codepen](https://codepen.io/robinrendle/pen/LmzLEL)

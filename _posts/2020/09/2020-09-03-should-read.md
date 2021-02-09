@@ -76,6 +76,12 @@ title: '읽어야 할 내용들'
 
 -   [Podcast 284: pros and cons of the SPA](https://stackoverflow.blog/2020/11/06/podcast-284-pros-and-cons-of-the-spa/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
 
+## 성능 개선
+
+### GitHub의 새 홈페이지를 빠르고 성능있게 만들기
+
+[페이지를 빠르고 효율적으로 만드는 방법](https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/)
+
 ## 분류 전
 
 [공유는 문화다](https://techhtml.github.io/blog/2016/05/developer)
@@ -83,6 +89,8 @@ title: '읽어야 할 내용들'
 [THE STARTUP BIBLE](https://www.thestartupbible.com/)
 
 -   BIBLE 는 아니다 읽어 볼만 하다
+
+[[변승규의 스타트업 법률 CASE STUDY] #26. 밸류에이션](https://platum.kr/archives/157480)
 
 [사업 아이디어를 찾는 5가지 방법](http://tkim.co/2020/11/10/7ways-for-startup-ideas/)
 
