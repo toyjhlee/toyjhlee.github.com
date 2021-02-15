@@ -3,14 +3,20 @@ title: 'Playground 서비스들'
 tags: 'playground'
 ---
 
-[codesandbox](https://codesandbox.io/dashboard/home)
+## 서비스
 
--   TablePaginationActions
+### [codesandbox](https://codesandbox.io/dashboard/home)
 
-[jsfiddle](https://jsfiddle.net/user/fiddles/all/)
+TablePaginationActions
 
--   rechart custom
+### [jsfiddle](https://jsfiddle.net/user/fiddles/all/)
 
-[codepen](https://codepen.io/dashboard/)
+rechart custom
 
--   Plyr: Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports modern browsers
+### [codepen](https://codepen.io/dashboard/)
+
+Plyr: Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports modern browsers
+
+## 개인 플레이 그라운드 만들기
+
+[코딩 플레이그라운드 만들며 맛보는 요즘 FE 개발 환경 Part 1](https://blog.shiren.dev/2021-02-15/?fbclid=IwAR1G-pQHoxRYxSbMrN6E2ikZ9t0haqsNbhUrrQUPqJIlSUr_mQvC1o2stpY)

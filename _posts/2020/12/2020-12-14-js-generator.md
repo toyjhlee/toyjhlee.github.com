@@ -7,6 +7,13 @@ tags: ['es6', 'generators', 'yield']
 
 [JavaScript Generator 이해하기](https://wonism.github.io/javascript-generator/)
 
+[Generators in Javascript: How to use them
+](https://dev.to/karimelghamry/generators-in-javascript-how-to-use-them-372d)
+
+1. Use case 1: Mimic the range() function from Python
+2. Use case 2: Visualize the Bubble Sort algorithm
+3. Use case 3: Generate distinct random numbers on demand
+
 ## 문서
 
 ### yield

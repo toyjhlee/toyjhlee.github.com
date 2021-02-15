@@ -93,3 +93,4 @@ import app from '@/app'
 
 - [create-react-app-typescript 상대경로를 절대경로로 바꾸기 v2](https://kod4284.github.io/2020/03/08/CRAT-setting-absolute-path-v2/)
 - [CRA + Typescript 절대경로 설정 (w/craco)](https://howdy-mj.me/typescript/craco-absolute-paths-setting/)
+- [eslint-import-resolver-alias](https://github.com/johvin/eslint-import-resolver-alias#usage)

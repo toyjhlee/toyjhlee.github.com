@@ -30,4 +30,6 @@ title: '인재 모집'
 
 “정의하라 → 빌려라 → 결합하라 → 숙성시켜라 → 판단하라 → 끌어올려라”
 
-출처 : 스타트업투데이(STARTUPTODAY)(https://www.startuptoday.kr)
+[출처 : 스타트업투데이(STARTUPTODAY)](https://www.startuptoday.kr)
+
+[누구나 원하는 개발자되기](https://blog.shiren.dev/2020-11-23/)
