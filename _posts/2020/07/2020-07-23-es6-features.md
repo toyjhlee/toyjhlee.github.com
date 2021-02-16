@@ -21,6 +21,11 @@ categories: engineering
     const PI = 3.141593
     ```
 
+    - [let](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/let)과 [const](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/const) 는 중괄호("{}")로 정의된 블록으로 유효 범위(스코프)를 지정하는 새로운 var 이다
+    - [var](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var) 는 전역 또는 함수 내부로 유효 범위를 갖는다
+    - [var 호이스팅(hoisting)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var#var_%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85hoisting)
+        - 변수 선언이 함수 또는 전역 코드의 상단에 이동하는 것과 같은 행동을 "호이스팅(hoisting)"이라고 불립니다.
+
 2. scope
 
     - Block-Scoped Variables
