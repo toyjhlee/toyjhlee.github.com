@@ -26,7 +26,7 @@ title: 'html video'
 
 [Validating Video Uploads On The Frontend](https://brettdewoody.com/video-dimensions-on-the-frontend/)
 
-[[번역] iOS를 위한 새로운 <video> 정책](https://d0gf00t.tistory.com/35)
+[[번역] iOS를 위한 새로운 \<video\> 정책](https://d0gf00t.tistory.com/35)
 
 ## Event
 
@@ -95,3 +95,9 @@ muted 적용 추가
 typescript 은 cammelCase 을 사용한다
 
 그래서 playsInline 으로 사용하면 된다
+
+### video bgColor 와 css backgroundColor 의 값은 같으나 다르게 보일때
+
+[Different video colour on different screens - rgb values and CSS](https://stackoverflow.com/questions/36182289/different-video-colour-on-different-screens-rgb-values-and-css)
+
+-   video bgColor 를 재생하는 비디오를 css backgroundColor 로 교체하는 방법
