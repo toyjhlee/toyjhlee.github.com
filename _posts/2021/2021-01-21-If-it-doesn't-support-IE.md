@@ -47,3 +47,18 @@ title: 'IE 를 지원하지 않는다면'
 > 요소 뒤 영역에 흐림이나 색상 시프트 등 그래픽 효과를 적용할 수 있는 속성입니다. 요소 "뒤"에 적용하기 때문에, 효과를 확인하려면 요소나 요소의 배경을 적어도 반투명하게는 설정해야 합니다.
 
 -   [codepen](https://codepen.io/robinrendle/pen/LmzLEL)
+
+[picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+
+-   예시 blog [Built-in Browser Support for Responsive Images](https://www.html5rocks.com/ko/tutorials/responsive/picture-element/)
+-   [mozilla 반응형 이미지](https://developer.mozilla.org/ko/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+
+[img.srcset](https://developer.mozilla.org/ko/docs/Web/HTML/Element/img)
+
+```jsx
+<img src="/files/16864/clock-demo-200px.png"
+     alt="Clock"
+     srcset="/files/16864/clock-demo-200px.png 200w,
+             /files/16797/clock-demo-400px.png 400w"
+     sizes="(max-width: 600px) 200px, 50vw">
+```
