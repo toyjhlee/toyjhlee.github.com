@@ -41,3 +41,20 @@ const Button = styled.button.attrs(() => ({
 ```
 
 [Add "How can I override styles with higher specificity?" to FAQ #187](https://github.com/styled-components/styled-components-website/issues/187)
+
+## 여려개의 버튼을 하나의 styledComponentId 로 제어하는 방법
+
+아래 처럼 버튼을 만들면
+
+```javascript
+export const BaseButton = styled.button``
+
+const Button1 = styled(BaseButton)``
+const Button2 = styled(BaseButton)``
+```
+
+아래와 같이 제어 할 수 있다
+
+```javascript
+&:hover .${BaseButton.styledComponentId} {}
+```
