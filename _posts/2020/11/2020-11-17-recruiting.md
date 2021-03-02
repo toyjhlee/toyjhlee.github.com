@@ -16,6 +16,8 @@ title: '인재 모집'
 
 [리모트 리딩 방법: How to lead with clarity and empathy in the remote world](https://stackoverflow.blog/2020/11/05/how-to-lead-with-clarity-and-empathy-in-the-remote-world/?utm_source=Iterable&utm_medium=email&utm_campaign=the_overflow_newsletter)
 
+[[스타트업 주니어로 살아남기] 최적의 인재를 채용하는 방법](https://www.mobiinside.co.kr/2021/02/16/startup-hr2/)
+
 ## 인터뷰
 
 -   내가 지금까지 면접을 보면서, 기존의 코드를 보여주면서 문제점을 찾고 그 문제를 해결하라고 요청받은 적이 없다는 사실이 안타깝다. [link](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
