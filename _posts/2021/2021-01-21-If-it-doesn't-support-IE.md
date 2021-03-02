@@ -62,3 +62,23 @@ title: 'IE 를 지원하지 않는다면'
              /files/16797/clock-demo-400px.png 400w"
      sizes="(max-width: 600px) 200px, 50vw">
 ```
+
+[filter](https://developer.mozilla.org/ko/docs/Web/CSS/filter)
+
+-   CSS filter 속성은 흐림 효과나 색상 변형 등 그래픽 효과를 요소에 적용합니다. 보통 필터는 이미지, 배경, 테두리 렌더링을 조정하는 데 쓰입니다.
+
+-   CSS 표준은 미리 정의된 효과를 내는 몇 가지 함수를 포함하고 있습니다. SVG 필터 요소를 가리키는 URL 참조를 사용하여 SVG 필터를 적용할 수도 있습니다.
+
+-   필터 함수
+    -   url()
+    -   blur()
+    -   brightness()
+    -   contrast()
+    -   drop-shadow()
+    -   grayscale()
+    -   hue-rotate()
+    -   invert()
+    -   opacity()
+    -   saturate()
+    -   sepia()
+    -   함수 조합 가능

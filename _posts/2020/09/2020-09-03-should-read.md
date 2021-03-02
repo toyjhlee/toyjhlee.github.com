@@ -102,6 +102,14 @@ title: '읽어야 할 내용들'
 
 [스타트업에서 기술책임자로 살아가기](https://www.slideshare.net/lqez/ss-36301654?fbclid=IwAR0loXU9F4FgEGgGfh4r39a2atj_b5PbJUjfBaRH9EZZvbyU7i_uNZZZm2Y)
 
+[스타트업이 투자를 받지 말아야 할 이유들](https://brunch.co.kr/@mobiinside/2834)
+
+1. 투자를 위한 실적, 투자를 위한 경영
+2. 외부의 힘이 경영에 깊게 작용한다
+3. 모든 투자 계약은 불평등 계약이다
+4. 되로 받았지만, 말로 돌려줘야 한다
+5. 스타트업은 기본적으로 실패하기 쉬운 섹터다
+
 ## User Input developers.google.com
 
 [멋진 양식 만들기](https://developers.google.com/web/fundamentals/design-and-ux/input/forms?hl=ko)
