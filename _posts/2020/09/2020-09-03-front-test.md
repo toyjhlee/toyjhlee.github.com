@@ -178,6 +178,14 @@ window.name = {
 }
 ```
 
+[Timer Mocks](https://jestjs.io/docs/en/timer-mocks)
+
+-   [Jest Mock 타이머 적용하기](https://haeguri.github.io/2020/01/12/jest-mock-timer/)
+
+```
+jest.advanceTimersByTime(1000);
+```
+
 ### visual regression testing(시각적 회귀 테스트)
 
 -   [BackstopJS](https://github.com/garris/BackstopJS)

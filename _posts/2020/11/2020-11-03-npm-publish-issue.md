@@ -1,5 +1,5 @@
 ---
-title: 'npm publish'
+title: 'npm publish issue'
 ---
 
 ## 명령어
