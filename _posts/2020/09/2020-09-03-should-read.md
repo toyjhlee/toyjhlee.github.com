@@ -17,6 +17,20 @@ title: '읽어야 할 내용들'
 
 -   [ ] [2019년과 이후 JavaScript의 동향 - WebAssembly](https://d2.naver.com/helloworld/8786166)
 
+## ECMAScript Update
+
+-   [ ] [ECMAScript 2021: the final feature set](https://2ality.com/2020/09/ecmascript-2021.html)
+-   The features of ES2021 (stage 4 proposals)
+
+    -   String.prototype.replaceAll (Peter Marshall, Jakob Gruber, Mathias Bynens)
+    -   Promise.any() (Mathias Bynens, Kevin Gibbons, Sergey Rubanov)
+    -   WeakRefs (Dean Tribble, Mark Miller, Till Schneidereit, Sathya Gunasekaran, Daniel Ehrenberg) [proposal]
+    -   Logical assignment operators (Justin Ridgewell, Hemanth HM)
+    -   Underscores (\_) as separators in number literals and bigint literals (Sam Goto, Rick Waldron)
+
+-   [ ] [ECMAScript® 2021 Language Specification](https://tc39.es/ecma262/2021/#sec-hosts-and-implementations)
+    -   자세한 설명
+
 ## toast ui
 
 -   [weekly-pick](https://ui.toast.com/weekly-pick/ko/)
