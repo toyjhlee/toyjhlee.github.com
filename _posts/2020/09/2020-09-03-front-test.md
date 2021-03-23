@@ -186,6 +186,15 @@ window.name = {
 jest.advanceTimersByTime(1000);
 ```
 
+-   [7 Ways to Debug Jest Tests in Terminal](https://pragmaticpineapple.com/7-ways-to-debug-jest-tests-in-terminal/)
+    1. The Standard Way
+    2. Without an Initial Break
+    3. Debugging TypeScript Tests
+    4. Best Way To Debug ™️
+    5. What About CRA?
+    6. Debugging From the Command-Line
+    7. All-In-One solution - ndb
+
 ### visual regression testing(시각적 회귀 테스트)
 
 -   [BackstopJS](https://github.com/garris/BackstopJS)
