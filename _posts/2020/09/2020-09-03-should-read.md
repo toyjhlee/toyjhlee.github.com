@@ -139,6 +139,10 @@ title: '읽어야 할 내용들'
 -   정기주주총회 소집통지
 -   더 간소화된 절차, “서면결의”
 
+[[스타트업 이직, 도전기] 투자 단계(시리즈)를 이해하면 스타트업이 보인다](https://www.mobiinside.co.kr/2021/03/23/startup-series/)
+
+-   스타트업 얼라이언스라는 곳에서 매월 발표하는 스타트업 지도를 활용
+
 ## User Input developers.google.com
 
 [멋진 양식 만들기](https://developers.google.com/web/fundamentals/design-and-ux/input/forms?hl=ko)
