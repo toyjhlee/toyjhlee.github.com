@@ -15,20 +15,17 @@ tags: ['react', 'issue']
 
 It's an intentional feature of the StrictMode. This only happens in development, and helps find accidental side effects put into the render phase. We only do this for components with Hooks because those are more likely to accidentally have side effects in the wrong place. -- [gaearon commented on Mar 9, 2019](https://github.com/facebook/react/issues/15074)
 
-<!--
 ## react-router scroll to top
-
-아래 방법으로는 해결이 되지 않았다
 
 ```jsx
 useEffect(() => {
-    setTimeout(() => {
-        window.scrollTo(0, 0)
-    }, 50)
+    window.scrollTo(0, 0)
 }, [history.location.pathname])
 ```
 
-### [해결 react-router scroll to top on every transition](https://stackoverflow.com/questions/36904185/react-router-scroll-to-top-on-every-transition#answer-54343182)
+### 다른 방법 1
+
+[react-router scroll to top on every transition](https://stackoverflow.com/questions/36904185/react-router-scroll-to-top-on-every-transition#answer-54343182)
 
 ```jsx
 import {useEffect} from 'react'
@@ -50,7 +47,9 @@ function ScrollToTop({history}) {
 export default withRouter(ScrollToTop)
 ```
 
-### 다른 방법으로 고민
+### 다른 방법 2
+
+> react-router 에서는 적용되지 않는 걸로 확인 되었다
 
 scrollRestoration 을 비활성화
 
@@ -59,4 +58,5 @@ if (history.scrollRestoration) {
     window.history.scrollRestoration = 'manual'
 }
 ```
+
 -->
