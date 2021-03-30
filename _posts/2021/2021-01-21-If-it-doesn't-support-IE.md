@@ -82,3 +82,7 @@ title: 'IE 를 지원하지 않는다면'
     -   saturate()
     -   sepia()
     -   함수 조합 가능
+
+[revert](https://developer.mozilla.org/ko/docs/Web/CSS/revert)
+
+-   revert 는 현재 엘리먼트에 선언 된 캐스캐이딩된 속성으로부터 style origin 으로 되돌립니다
