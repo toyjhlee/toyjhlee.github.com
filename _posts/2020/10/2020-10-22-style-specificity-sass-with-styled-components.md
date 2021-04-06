@@ -44,7 +44,7 @@ const Button = styled.button.attrs(() => ({
 
 ```JSX
 expect(container.querySelector(`.${Button.styledComponentId}`)).toHaveStyleRule('color', 'blue', {
-    modifier: `&`
+    modifier: `&&`
 })
 ```
 
