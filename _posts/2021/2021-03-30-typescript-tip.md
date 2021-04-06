@@ -1,5 +1,6 @@
 ---
 title: 'Typescript Tip'
+tags: ['HTMLAttributes']
 ---
 
 ## input component 만들기

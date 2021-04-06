@@ -110,6 +110,18 @@ title: '읽어야 할 내용들'
 
 [사업 아이디어를 찾는 5가지 방법](http://tkim.co/2020/11/10/7ways-for-startup-ideas/)
 
+[예비창업자를 위한 사업계획서 유의사항 7가지](https://blog.naver.com/bltpatentlaw/222293521101)
+
+> 예비창업자 7가지 유의사항
+
+1. 사업 제목을 한 줄로 명확히 표현하여야 한다.
+2. 자신의 경력과 사업아이템을 연계하여야 한다.
+3. 자신이 발견한 문제점을 명확히 설명하고 공감을 이끌어내야 한다.
+4. 해결방법이 ‘사업적’이어야 한다.
+5. 팀을 구성할 능력이 있음을 어필해야 한다.
+6. 실제로 사업을 할 의지가 있음을 보여줘야 한다.
+7. 소요기간, 예산계획이 명확해야 한다.
+
 [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 -   [다음으로 이동](/front-end-checklist)
