@@ -40,6 +40,14 @@ const Button = styled.button.attrs(() => ({
 }
 ```
 
+테스트
+
+```JSX
+expect(container.querySelector(`.${Button.styledComponentId}`)).toHaveStyleRule('color', 'blue', {
+    modifier: `&`
+})
+```
+
 [Add "How can I override styles with higher specificity?" to FAQ #187](https://github.com/styled-components/styled-components-website/issues/187)
 
 ## 여려개의 버튼을 하나의 styledComponentId 로 제어하는 방법
