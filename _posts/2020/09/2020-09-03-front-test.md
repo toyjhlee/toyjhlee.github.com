@@ -249,6 +249,17 @@ jest.mock('../worker', () => {
 })
 ```
 
+#### private method mock
+
+```javascript
+class Foo {
+    private prop: string;
+}
+
+const foo = new Foo()
+jest.spyOn<any, string>(foo, 'prop');
+```
+
 #### window 에 값 설정
 
 jest 실행 시 내부의 class 가 window 의 지정한 property 를 참조하는 경우 아래 방법으로는 undefind 가 발행한다
