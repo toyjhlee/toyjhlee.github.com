@@ -77,91 +77,179 @@ Test Runner Test Mathcher Test Mock
 
 ### reat-testing-library
 
--   [api-queries](https://testing-library.com/docs/dom-testing-library/api-queries)
--   [cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet#queries)
--   [testing-library / jest-dom - Custom matchers](https://github.com/testing-library/jest-dom#table-of-contents)
--   [examples](https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples)
+#### [api-queries](https://testing-library.com/docs/dom-testing-library/api-queries)
 
--   [React Unit Test — react-testing-library, 너를 알아가는 시간](https://medium.com/@juyeon.kate/react-unit-test-react-testing-library-%EB%84%88%EB%A5%BC-%EC%95%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%8B%9C%EA%B0%84-ab4ce30e6398)
+#### [cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet#queries)
 
-    -   Enzyme 에서 react-testing-library 변경 관련
+#### [testing-library / jest-dom - Custom matchers](https://github.com/testing-library/jest-dom#table-of-contents)
 
--   `ReferenceError: document is not defined`
+#### [examples](https://codesandbox.io/s/github/kentcdodds/react-testing-library-examples)
 
-    -   message
+#### [React Unit Test — react-testing-library, 너를 알아가는 시간](https://medium.com/@juyeon.kate/react-unit-test-react-testing-library-%EB%84%88%EB%A5%BC-%EC%95%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%8B%9C%EA%B0%84-ab4ce30e6398)
 
-        ```
-        The error below may be caused by using the wrong test environment, see https://jestjs.io/docs/en/configuration#testenvironment-string.
-        Consider using the "jsdom" test environment.
+-   Enzyme 에서 react-testing-library 변경 관련
 
-        ReferenceError: document is not defined
-        ```
+#### `ReferenceError: document is not defined`
 
-    -   해결방법
+-   message
 
-        -   [ReferenceError: document is not defined #422](https://github.com/testing-library/react-testing-library/issues/422#issuecomment-518007141)
+    ```
+    The error below may be caused by using the wrong test environment, see https://jestjs.io/docs/en/configuration#testenvironment-string.
+    Consider using the "jsdom" test environment.
 
-        1. testEnvironment 를 node -> jsdom 으로 변경 in package.json
-        2. jest 재 실행
+    ReferenceError: document is not defined
+    ```
 
--   `Property 'toBeInTheDocument' does not exist on type 'Matchers<any>`
+-   해결방법
 
-    -   message
-        ```
-        Property 'toBeInTheDocument' does not exist on type 'JestMatchersShape<HTMLElement[], Matchers<void, HTMLElement[]>, Matchers<Promise<void>, HTMLElement[]>>'.
-        ```
-    -   해결방법
+    -   [ReferenceError: document is not defined #422](https://github.com/testing-library/react-testing-library/issues/422#issuecomment-518007141)
 
-        -   [Property 'toBeInTheDocument' does not exist on type 'Matchers<any>'](https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany)
+    1. testEnvironment 를 node -> jsdom 으로 변경 in package.json
+    2. jest 재 실행
 
-        -   `import '@testing-library/jest-dom/extend-expect`
+#### `Property 'toBeInTheDocument' does not exist on type 'Matchers<any>`
+
+-   message
+    ```
+    Property 'toBeInTheDocument' does not exist on type 'JestMatchersShape<HTMLElement[], Matchers<void, HTMLElement[]>, Matchers<Promise<void>, HTMLElement[]>>'.
+    ```
+-   해결방법
+
+    -   [Property 'toBeInTheDocument' does not exist on type 'Matchers<any>'](https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany)
+
+    -   `import '@testing-library/jest-dom/extend-expect`
 
 ### jest
 
--   [daleseo.com](https://www.daleseo.com/jest-before-after/)
+#### [daleseo.com](https://www.daleseo.com/jest-before-after/)
 
-    -   [Jest로 기본적인 테스트 작성하기](https://www.daleseo.com/jest-basic/)
-    -   [Jest로 테스트 전/후 처리하기](https://www.daleseo.com/jest-before-after/)
-    -   [Jest로 비동기 코드 테스트 작성하기](https://www.daleseo.com/jest-async/)
-    -   [[Jest] jest.fn(), jest.spyOn() 함수 모킹](https://www.daleseo.com/jest-fn-spy-on/)
-    -   [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
+-   [Jest로 기본적인 테스트 작성하기](https://www.daleseo.com/jest-basic/)
+-   [Jest로 테스트 전/후 처리하기](https://www.daleseo.com/jest-before-after/)
+-   [Jest로 비동기 코드 테스트 작성하기](https://www.daleseo.com/jest-async/)
+-   [[Jest] jest.fn(), jest.spyOn() 함수 모킹](https://www.daleseo.com/jest-fn-spy-on/)
+-   [[Jest] jest.mock() 모듈 모킹](https://www.daleseo.com/jest-mock-modules/)
 
--   [snapshot-testing](https://jestjs.io/docs/en/snapshot-testing)
+#### [snapshot-testing](https://jestjs.io/docs/en/snapshot-testing)
 
-    -   [왜 스냅 샷 테스트인가?](https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing)
-        -   스냅 샷 통합 테스트가 해결하는 엔드 투 엔드 테스트에서 많은 문제를 발견했습니다.
-            -   스냅 샷 테스트가 시각적 회귀 테스트 대비 장점
-                -   결함 없음
-                -   빠른 반복 속도
-                -   디버깅
-    -   -u 플래그를 사용하여 스냅 샷을 다시 생성 할 수도 있습니다
-    -   toMatchInlineSnapshot
-        -   스냅 샷 값이 소스 코드에 자동으로 다시 기록된다는 점을 제외하면 외부 스냅 샷 ( 파일) 과 동일하게 작동합니다 . 즉, 올바른 값이 기록되었는지 확인하기 위해 외부 파일로 전환하지 않고도 자동으로 생성 된 스냅 샷의 이점을 얻을 수 있습니다.
+-   [왜 스냅 샷 테스트인가?](https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing)
+    -   스냅 샷 통합 테스트가 해결하는 엔드 투 엔드 테스트에서 많은 문제를 발견했습니다.
+        -   스냅 샷 테스트가 시각적 회귀 테스트 대비 장점
+            -   결함 없음
+            -   빠른 반복 속도
+            -   디버깅
+-   -u 플래그를 사용하여 스냅 샷을 다시 생성 할 수도 있습니다
+-   toMatchInlineSnapshot
+    -   스냅 샷 값이 소스 코드에 자동으로 다시 기록된다는 점을 제외하면 외부 스냅 샷 ( 파일) 과 동일하게 작동합니다 . 즉, 올바른 값이 기록되었는지 확인하기 위해 외부 파일로 전환하지 않고도 자동으로 생성 된 스냅 샷의 이점을 얻을 수 있습니다.
 
--   [Jest — How to Use Extend with TypeScript](https://medium.com/javascript-in-plain-english/jest-how-to-use-extend-with-typescript-4011582a2217)
+#### [Jest — How to Use Extend with TypeScript](https://medium.com/javascript-in-plain-english/jest-how-to-use-extend-with-typescript-4011582a2217)
 
-    ```
-    declare global {
-        namespace jest {
-            interface Matchers<R> {
-                withOut(expected: any): R
-            }
+```
+declare global {
+    namespace jest {
+        interface Matchers<R> {
+            withOut(expected: any): R
+        }
+    }
+}
+
+expect.extend({
+    withOut(actual: any, expected: any) {
+        const pass = actual % expected === 0
+        const message = pass
+            ? () => `expected ${actual} not to be without by ${expected}`
+            : () => `expected ${actual} to be without by ${expected}`
+
+        return {message, pass}
+    }
+})
+```
+
+#### canvas mock
+
+```typescript
+// setupTests.ts
+import 'jest-canvas-mock'
+```
+
+#### getContext mock
+
+[참고](https://github.com/jsdom/jsdom/issues/1782#issuecomment-337656878)
+
+```javascript
+function mockCanvas(window) {
+    window.HTMLCanvasElement.prototype.getContext = function () {
+        return {
+            fillRect: function () {},
+            clearRect: function () {},
+            getImageData: function (x, y, w, h) {
+                return {
+                    data: new Array(w * h * 4),
+                }
+            },
+            putImageData: function () {},
+            createImageData: function () {
+                return []
+            },
+            setTransform: function () {},
+            drawImage: function () {},
+            save: function () {},
+            fillText: function () {},
+            restore: function () {},
+            beginPath: function () {},
+            moveTo: function () {},
+            lineTo: function () {},
+            closePath: function () {},
+            stroke: function () {},
+            translate: function () {},
+            scale: function () {},
+            rotate: function () {},
+            arc: function () {},
+            fill: function () {},
+            measureText: function () {
+                return {width: 0}
+            },
+            transform: function () {},
+            rect: function () {},
+            clip: function () {},
         }
     }
 
-    expect.extend({
-        withOut(actual: any, expected: any) {
-            const pass = actual % expected === 0
-            const message = pass
-                ? () => `expected ${actual} not to be without by ${expected}`
-                : () => `expected ${actual} to be without by ${expected}`
+    window.HTMLCanvasElement.prototype.toDataURL = function () {
+        return ''
+    }
+}
+```
 
-            return {message, pass}
-        }
-    })
-    ```
+```javascript
+const document = jsdom.jsdom(undefined, {
+    virtualConsole: jsdom.createVirtualConsole().sendTo(console),
+})
 
--   window 에 값 설정
+const window = document.defaultView
+mockCanvas(window)
+```
+
+#### worker mock
+
+[참고](https://github.com/facebook/jest/issues/5023#issuecomment-351784414)
+
+대상 코드
+
+```javascript
+import ExternalSourceLoaderWorker from "comlink-loader!./ExternalSourceLoaderWorker"; /
+```
+
+mock 코드
+
+```javascript
+jest.mock('../worker', () => {
+    return jest.fn().mockImplementation(() => ({
+        ExternalSourceLoaderWorker: jest.fn(),
+    }))
+})
+```
+
+#### window 에 값 설정
 
 jest 실행 시 내부의 class 가 window 의 지정한 property 를 참조하는 경우 아래 방법으로는 undefind 가 발행한다
 
@@ -178,7 +266,7 @@ window.name = {
 }
 ```
 
-[Timer Mocks](https://jestjs.io/docs/en/timer-mocks)
+#### [Timer Mocks](https://jestjs.io/docs/en/timer-mocks)
 
 -   [Jest Mock 타이머 적용하기](https://haeguri.github.io/2020/01/12/jest-mock-timer/)
 
@@ -186,14 +274,15 @@ window.name = {
 jest.advanceTimersByTime(1000);
 ```
 
--   [7 Ways to Debug Jest Tests in Terminal](https://pragmaticpineapple.com/7-ways-to-debug-jest-tests-in-terminal/)
-    1. The Standard Way
-    2. Without an Initial Break
-    3. Debugging TypeScript Tests
-    4. Best Way To Debug ™️
-    5. What About CRA?
-    6. Debugging From the Command-Line
-    7. All-In-One solution - ndb
+#### [7 Ways to Debug Jest Tests in Terminal](https://pragmaticpineapple.com/7-ways-to-debug-jest-tests-in-terminal/)
+
+1. The Standard Way
+2. Without an Initial Break
+3. Debugging TypeScript Tests
+4. Best Way To Debug ™️
+5. What About CRA?
+6. Debugging From the Command-Line
+7. All-In-One solution - ndb
 
 ### visual regression testing(시각적 회귀 테스트)
 
