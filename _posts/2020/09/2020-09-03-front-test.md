@@ -264,6 +264,18 @@ jest.spyOn<any, string>(foo, 'prop');
 
 [참고](https://obyford.com/posts/testing-sass-with-jest/)
 
+#### toHaveStyleRule 에 ruls 이 많은 경우
+
+```javascript
+const toHaveStyleRules = (component, property, options) => {
+    let hyphen = ''
+    _.each(property, (value, key) => {
+        hyphen = key.replace(/([A-Z])/g, g => `-${g[0].toLowerCase()}`)
+        expect(component).toHaveStyleRule(hyphen, value, options)
+    })
+}
+```
+
 #### window 에 값 설정
 
 jest 실행 시 내부의 class 가 window 의 지정한 property 를 참조하는 경우 아래 방법으로는 undefind 가 발행한다
