@@ -20,6 +20,13 @@ element {
 }
 ```
 
+### javascript 에서 사용 [참고](https://vanseodesign.com/css/custom-properties-and-javascript/)
+
+```javascript
+var styles = getComputedStyle(document.documentElement)
+var mainBgcolorValue = styles.getPropertyValue('-main-bg-color:')
+```
+
 ### :root
 
 CSS :root 의사 클래스는 문서 트리의 루트 요소를 선택합니다 HTML의 루트 요소는 <html> 요소이므로, :root의 명시도가 더 낮다는 점을 제외하면 html 선택자와 똑같습니다. [참고](https://developer.mozilla.org/ko/docs/Web/CSS/:root)
@@ -51,3 +58,4 @@ CSS :root 의사 클래스는 문서 트리의 루트 요소를 선택합니다 
 
 -   [:root 가상선택자와 CSS 변수](https://blog.thereis.xyz/136)
 -   [사용자 지정 CSS 속성 사용하기](https://developer.mozilla.org/ko/docs/Web/CSS/Using_CSS_custom_properties)
+-   [CSS Custom Properties (커스텀속성) 소개](https://wit.nts-corp.com/2017/06/27/4731)

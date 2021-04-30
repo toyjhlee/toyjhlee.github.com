@@ -57,3 +57,17 @@ tags: ['utils', 'detection']
 ```
 window.scrollTo({ top: 1200, behavior: 'smooth' });
 ```
+
+## style
+
+scrollbar hidden 스크롤바 안 보이게 하기 [출처](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp)
+
+```scss
+-ms-overflow-style: none; /* IE and Edge */
+scrollbar-width: none; /* Firefox */
+
+&&::-webkit-scrollbar {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+}
+```

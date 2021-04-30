@@ -141,6 +141,50 @@ Test Runner Test Mathcher Test Mock
 -   toMatchInlineSnapshot
     -   스냅 샷 값이 소스 코드에 자동으로 다시 기록된다는 점을 제외하면 외부 스냅 샷 ( 파일) 과 동일하게 작동합니다 . 즉, 올바른 값이 기록되었는지 확인하기 위해 외부 파일로 전환하지 않고도 자동으로 생성 된 스냅 샷의 이점을 얻을 수 있습니다.
 
+#### [Testing Sass with Jest](https://obyford.com/posts/testing-sass-with-jest/)
+
+-   Testing that your Sass compiles without errors
+-   Enforcing good Sass hygiene
+-   Testing Sass functions
+-   Testing Sass mixins
+
+sass file 의 내용을 테스트 한다
+
+```scss
+// root.module.scss
+:root {
+}
+```
+
+```typescript
+const util = require('util')
+const sass = require('node-sass')
+const sassRenderPromisify = util.promisify(sass.render)
+
+export const sassRender = (options: any) => {
+    return sassRenderPromisify({
+        // Where node-sass should look for files when you use @import
+        includePaths: ['./sass'],
+
+        // Using a compact output style allows you to use concise 'expected' CSS
+        outputStyle: 'compact',
+
+        // Merge in any other options you pass when calling render
+        ...options,
+    })
+}
+```
+
+```typescript
+it('', async () => {
+    const rootModule = await sassRender({
+        file: 'src/root.module.scss',
+    })
+
+    expect(rootModule.css.toString()).toContain(':root {')
+})
+```
+
 #### [Jest — How to Use Extend with TypeScript](https://medium.com/javascript-in-plain-english/jest-how-to-use-extend-with-typescript-4011582a2217)
 
 ```

@@ -90,3 +90,15 @@ if (history.scrollRestoration) {
 ```
 
 -->
+
+## act warning
+
+React.act 로 감싸는 것으로 해결 되지 않는 경우가 있었다. 아래 글을 보고 해결했다. act 관련 경우들의 해결 방법을 설명하고 있다
+
+[Fix the "not wrapped in act(...)" warning](https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning#an-alternative-waiting-for-the-mocked-promise)
+
+[관련 영상](https://egghead.io/lessons/jest-fix-the-not-wrapped-in-act-warning)
+
+```typescript
+const promise = Promise.resolve()
+```
