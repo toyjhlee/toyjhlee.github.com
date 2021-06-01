@@ -79,6 +79,8 @@ title: '읽어야 할 내용들'
 
 -   [ ] [모던 자바스크립트 Deep Dive](https://poiemaweb.com/)
 
+-   [ ] [한 줄로 된 javascript util code](https://1loc.dev/)
+
 ## news
 
 -   [ ] [The StartUp Bible](https://www.thestartupbible.com/)
