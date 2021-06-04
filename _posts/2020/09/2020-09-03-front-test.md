@@ -324,17 +324,22 @@ const toHaveStyleRules = (component, property, options) => {
 
 jest 실행 시 내부의 class 가 window 의 지정한 property 를 참조하는 경우 아래 방법으로는 undefind 가 발행한다
 
-```
-Object.defineProperty(window)
+```javascript
+Object.defineProperty(window, key, {
+    value: {},
+})
+Object.defineProperties(window, {
+    key: {
+        value: {},
+    },
+})
 ```
 
 아래 방법으로 해야 한다
 
-```
+```javascript
 // setupTests
-window.name = {
-
-}
+window.name = {}
 ```
 
 #### [Timer Mocks](https://jestjs.io/docs/en/timer-mocks)
