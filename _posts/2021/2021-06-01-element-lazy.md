@@ -6,6 +6,12 @@ title: 'element lazy loading'
 
 [[2020.11.29] 웹 성능 최적화를 위한 Image Lazy Loading 기법](https://helloinyong.tistory.com/297)
 
+[IntersectionObserver를 이용한 이미지 동적 로딩 기능 개선](https://tech.lezhin.com/2017/07/13/intersectionobserver-overview)
+
+[Dominant Colors for Lazy-Loading Images](https://manu.ninja/dominant-colors-for-lazy-loading-images/)
+
+-   image 의 색상 가져오기
+
 ## Element 속성
 
 지연 로딩 https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
