@@ -101,3 +101,19 @@ typescript 은 cammelCase 을 사용한다
 [Different video colour on different screens - rgb values and CSS](https://stackoverflow.com/questions/36182289/different-video-colour-on-different-screens-rgb-values-and-css)
 
 -   video bgColor 를 재생하는 비디오를 css backgroundColor 로 교체하는 방법
+
+### SecurityError: Failed to execute 'toDataURL' on 'HTMLCanvasElement': Tainted canvases may not be exported.
+
+```javascript
+canvas.toDataURL()
+```
+
+근거 [교차 출처 이미지와 캔버스 허용하기](https://developer.mozilla.org/ko/docs/Web/HTML/CORS_enabled_image)
+
+-   CORS를 통하지 않고, 다른 origin으로 부터 가져온 데이터들은 canvas에 그려지는 즉시 canvas는 오염됩니다
+
+[HTML5 video screenshot via canvas using CORS](https://stackoverflow.com/questions/35244215/html5-video-screenshot-via-canvas-using-cors)
+
+[IE11 지원](https://pythonq.com/so/javascript/1935578)
+
+-   canvg.js를 사용

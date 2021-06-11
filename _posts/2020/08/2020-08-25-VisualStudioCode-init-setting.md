@@ -44,6 +44,10 @@ categories: engineering
         }
         ```
     6. @trivago/prettier-plugin-sort-imports 추가
+        ```json
+        "importOrder": ["^[a-z]", "^[@]", "^[./]"],
+        "importOrderSeparation": true
+        ```
     7. settings.json // vs-code
 
         - save 시 prettier 가 동작하지 않아서 다음을 추가했다 esbenp.prettier-vscode
