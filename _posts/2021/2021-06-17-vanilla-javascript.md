@@ -6,7 +6,13 @@ title: 'Vanilla JavaScrip'
 
 [link](https://www.smashingmagazine.com/2021/04/vanilla-javascript-code-snippets/)
 
--   [한 줄로 된 javascript util code](https://1loc.dev/)
+### 1loc
+
+[한 줄로 된 javascript util code](https://1loc.dev/)
+
+### wtfjs
+
+[아니 X발? 자바스크립트 이게 뭐야??](https://github.com/denysdovhan/wtfjs/blob/master/README-kr.md)
 
 ## 책들
 
