@@ -16,6 +16,12 @@ title: '읽어야 할 내용들'
 ### 2019년과 이후 JavaScript의 동향
 
 -   [ ] [2019년과 이후 JavaScript의 동향 - WebAssembly](https://d2.naver.com/helloworld/8786166)
+-   [ ] [2019년과 이후 JavaScript의 동향 - 라이브러리와 프레임워크 1](https://d2.naver.com/helloworld/0145894)
+-   [] [2019년과 이후 JavaScript의 동향 - 라이브러리와 프레임워크 2](https://d2.naver.com/helloworld/2108442)
+
+### 2018년과 이후 JavaScript의 동향
+
+-   [ ] [2018년과 이후 JavaScript의 동향 - 라이브러리와 프레임워크](https://d2.naver.com/helloworld/3259111)
 
 ## ECMAScript Update
 
@@ -69,17 +75,7 @@ title: '읽어야 할 내용들'
 
 ## javascript
 
--   [ ] [The 16 JavaScript debugging tips you probably didn’t know](https://raygun.com/learn/javascript-debugging-tips?utm_medium=newsletter&utm_source=javascriptweekly&utm_campaign=cooperpress&utm_content=article)
-
--   [ ] [MDN Web Developer Needs Assessment 2019](https://mdn-web-dna.s3-us-west-2.amazonaws.com/MDN-Web-DNA-Report-2019.pdf)
-
--   [ ] [모던 JavaScript 튜토리얼](https://ko.javascript.info/)
-
-    -   모던 JavaScript 튜토리얼은 상세한 설명과 함께 JavaScript 기본 개념 및 고급 개념을 다룹니다.
-
--   [ ] [모던 자바스크립트 Deep Dive](https://poiemaweb.com/)
-
--   [ ] [한 줄로 된 javascript util code](https://1loc.dev/)
+[다음으로 이동](/vanilla-javascript)
 
 ## news
 

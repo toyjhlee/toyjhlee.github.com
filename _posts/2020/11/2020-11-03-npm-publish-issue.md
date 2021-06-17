@@ -112,11 +112,15 @@ You cannot publish over the previously published version. Try bumping the versio
 
 ## Webpack
 
+### tree shake, tree shaking
+
 -   [Webpack에서 Tree Shaking 적용하기](https://medium.com/naver-fe-platform/webpack%EC%97%90%EC%84%9C-tree-shaking-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-1748e0e0c365)
 
     -   Tree Shaking은 사용하지 않는 코드를 제거함으로써 용량을 줄일 수 있는 방식입니다.
 
 -   [Webpack 4의 Tree Shaking에 대한 이해](https://huns.me/development/2265)
+
+-   [트리 쉐이킹으로 자바스크립트 페이로드 줄이기](https://ui.toast.com/weekly-pick/ko_20180716)
 
 ### 에러
 

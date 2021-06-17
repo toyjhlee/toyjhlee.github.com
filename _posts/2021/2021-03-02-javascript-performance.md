@@ -21,3 +21,15 @@ title: 'Javascript Performance'
     - Disk usage
 
 ### Conclusion
+
+## CRA 환경
+
+### Bundle size 측정
+
+[Analyzing the Bundle Size](https://create-react-app.dev/docs/analyzing-the-bundle-size/)
+
+## tree shaking example
+
+[[웹팩4] tree shaking 적용 방법](https://min9nim.github.io/2018/08/tree-shaking/)
+
+-   [저장소](https://github.com/min9nim/tree-shaking-example)

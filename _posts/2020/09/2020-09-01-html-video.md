@@ -117,3 +117,17 @@ canvas.toDataURL()
 [IE11 지원](https://pythonq.com/so/javascript/1935578)
 
 -   canvg.js를 사용
+
+### vidoe capture timeline 만들기
+
+```jsx
+<video
+  onLoadedData={(e) => {
+    e.target.currentTime = 0;
+  }}
+  onSeeked={(e) => {
+    // canavas 를 이용한 캡쳐
+    e.target.currentTime = goTime // 이동할 sec
+  }}
+>
+```
