@@ -30,7 +30,7 @@ categories: engineering
         ```javascript
             "editor.formatOnSave": true,
             "[scss]": {
-            "editor.formatOnSave": false
+            	"editor.formatOnSave": false
             }
         ```
 
@@ -54,18 +54,26 @@ categories: engineering
 
         ```javascript
         {
-          "window.zoomLevel": 0,
-          "files.trimTrailingWhitespace": true,
-          "todo-tree.tree.showScanModeButton": false,
-          "editor.formatOnSave": true,
-          "editor.tabSize": 4,
-          "editor.detectIndentation": false,
-          "[scss]": {
-              "editor.formatOnSave": false
-          },
-          "editor.defaultFormatter": "esbenp.prettier-vscode",
-          "[javascript]": {
-              "editor.defaultFormatter": "esbenp.prettier-vscode"
-          }
-          }
+        "window.zoomLevel": 0,
+        "files.trimTrailingWhitespace": true,
+        "todo-tree.tree.showScanModeButton": false,
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "[scss]": {
+        	"editor.formatOnSave": false
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[javascript]": {
+        	"editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+        }
         ```
+
+    8. typescript react 관련 추가
+
+    ```json
+    "[typescriptreact]": {
+    	"editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    ```
