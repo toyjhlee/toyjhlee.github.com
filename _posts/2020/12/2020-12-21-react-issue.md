@@ -102,3 +102,28 @@ React.act 로 감싸는 것으로 해결 되지 않는 경우가 있었다. 아�
 ```typescript
 const promise = Promise.resolve()
 ```
+
+## for more information. Args: .sc-bBXqnf
+
+### 에러 메시지
+
+-   `Cannot create styled-component for component: .sc-bBXqnf`
+-   `prettier-plugin-sort-imports` 을 적용하면 서 React import 가 polyfill 위로 가면서 생긴 현상
+-   `개체가 'repeat' 속성이나 메서드를 지원하지 않습니다`
+
+### before
+
+```es6
+import React from 'react'
+import 'react-app-polyfill/ie11'
+import 'react-app-polyfill/stable'
+```
+
+### after
+
+```es6
+import 'react-app-polyfill/ie11'
+import 'react-app-polyfill/stable'
+
+import React from 'react'
+```
