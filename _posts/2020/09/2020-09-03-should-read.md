@@ -163,3 +163,7 @@ title: '읽어야 할 내용들'
 [멋진 양식 만들기](https://developers.google.com/web/fundamentals/design-and-ux/input/forms?hl=ko)
 
 [사이트에 터치 추가](https://developers.google.com/web/fundamentals/design-and-ux/input/touch?hl=ko)
+
+## Front 상식
+
+[프론트엔드 개발자를 위한 토막상식](https://steemit.com/front-end/@caesium133/4dkun)
