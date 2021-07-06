@@ -4,6 +4,8 @@ title: tailwind Css
 
 ## 관련 글
 
+### [Tailwind CSS: 사이드 프로젝트에서 수 백만 달러 비즈니스가 되기까지](https://news.hada.io/topic?id=2583)
+
 ### [Hello Tailwind CSS! | 장점, 단점, 사용법](https://wonny.space/writing/dev/hello-tailwind-css)
 
 -   설치
@@ -25,6 +27,10 @@ title: tailwind Css
 ## 예시들
 
 ### [tailwindcomponents](https://tailwindcomponents.com/)
+
+### [awesome-tailwindcss](https://tailwindcss.com/)
+
+### [Beautiful UI components, crafted with Tailwind CSS](https://tailwindui.com/)
 
 ## 유틸
 
