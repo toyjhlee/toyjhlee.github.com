@@ -2,6 +2,12 @@
 title: 'Text Animation'
 ---
 
+## 문서
+
+[Web Animations](https://www.w3.org/TR/web-animations/)
+
+-   W3C Working Draft, 18 May 2021
+
 ## css
 
 css animation 을 사용하는 방법

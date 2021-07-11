@@ -1,5 +1,6 @@
 ---
 title: 'css animation example'
+tags: ['example']
 ---
 
 ## loading
