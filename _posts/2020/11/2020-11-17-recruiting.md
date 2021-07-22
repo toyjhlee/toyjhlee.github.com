@@ -24,6 +24,15 @@ title: '인재 모집'
 
 -   imhr 회사 소계지만 읽을 가치가 있다
 
+[개발자 온보딩 가이드 : 첫 90일을 어떻게 계획해야 할까](https://news.hada.io/topic?id=4643&fbclid=IwAR2k7mMrGbRsaVarV0kQkISeAWd5yIZ4TRq9b1yhpuHCH2X8JtcidNwQA68)
+
+-   역할과 책임
+-   온보딩 프로그램 모범사례
+-   기타 온보딩 고려사항
+-   원격 회사를 위한 팁
+-   온보딩 성과 측정
+-   온보딩 개선 시작하기
+
 ## 인터뷰
 
 -   내가 지금까지 면접을 보면서, 기존의 코드를 보여주면서 문제점을 찾고 그 문제를 해결하라고 요청받은 적이 없다는 사실이 안타깝다. [link](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)

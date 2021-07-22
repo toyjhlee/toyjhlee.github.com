@@ -94,3 +94,49 @@ Div.componentStyle?.rules.forEach((expr, index) => {
 [CSS-in-JS에서 CSS-in-CSS로 바꿔야 하는 이유](https://blueshw.github.io/2020/09/14/why-css-in-css/)
 
 [CSS-in-JS(Styled Components) vs CSS-inCSS(CSS Modules) 성능 비교](https://blueshw.github.io/2020/09/27/css-in-js-vs-css-modules/)
+
+## styled-component vs emotion
+
+### state of css
+
+[link](https://2020.stateofcss.com/ko-KR/technologies/css-in-js)
+
+### styled-components-vs-emotion
+
+[link](https://github.com/jsjoeio/styled-components-vs-emotion)
+
+-   시간이 지남에 따라 두 API 는 비슷해졌다
+
+### Emotion vs Styled Components
+
+2019.12.18 ~ 2019.12.24
+
+[link](https://spectrum.chat/styled-components/general/emotion-vs-styled-components~706ff9c8-f06d-4433-a42c-cc158d385089)
+
+-   styled-component 가 생태계와 인기 있다는 이유로 추천
+
+### stackshare
+
+[link](https://stackshare.io/stackups/emotion-vs-styled-components)
+
+-   styled-component 가 투표를 더 받음
+
+### Styled-components vs. Emotion for handling CSS
+
+2021.01.21
+
+[link](https://blog.logrocket.com/styled-components-vs-emotion-for-handling-css/)
+
+간단한 스타일 emotion
+
+독특하고 복잡한 스타일 -> styled-component
+
+### A Thorough Analysis of CSS-in-JS
+
+[link](https://css-tricks.com/a-thorough-analysis-of-css-in-js/)
+
+### 사용법
+
+How To Use Emotion for Styling in React
+
+[link](https://www.digitalocean.com/community/tutorials/react-react-emotion)
