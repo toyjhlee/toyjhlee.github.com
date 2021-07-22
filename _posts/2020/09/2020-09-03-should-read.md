@@ -123,7 +123,7 @@ title: '읽어야 할 내용들'
 [확장 가능하지 않은 일을 하라](https://brunch.co.kr/@jaemyungshin/3)
 
 -   번역 [Do things that don't scale](http://paulgraham.com/ds.html)
--   요약: 일을 하드코딩을 한 후 계속 적으로 사용면 자동화 하라
+-   요약: 일을 하드코딩을 한 후 계속 적으로 사용하면 자동화 하라
 
 [Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
