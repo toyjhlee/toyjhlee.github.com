@@ -5,6 +5,8 @@ tags: ['example']
 
 ## loading
 
+## [Loading, waiting, and spinning animations](https://icons8.com/preloaders/)
+
 ### [Load Awesome](https://labs.danielcardoso.net/load-awesome)
 
 [list](https://labs.danielcardoso.net/load-awesome/animations.html)
