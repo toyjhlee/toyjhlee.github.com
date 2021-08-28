@@ -1,5 +1,5 @@
----
-title: 'css functions'
+\_posts/2021/2021-06-18-css-functions.md--- title: 'css functions'
+
 ---
 
 ## A Complete Guide to CSS Functions

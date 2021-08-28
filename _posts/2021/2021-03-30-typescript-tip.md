@@ -26,3 +26,9 @@ export type InputProps = {
 ### 생각
 
 기본 property name 과 겹치지 말자
+
+## Element 기본 속성 상속 받기
+
+```typescript
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+```
