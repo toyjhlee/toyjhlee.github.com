@@ -2,4 +2,4 @@
 
 ## 인터랙티브\_웹ui
 
--   [스크롤 추가 2021-09-12](<(https://play.tailwindcss.com/LETGQvWb0w)>)
+-   [스크롤 추가 2021-09-12](https://play.tailwindcss.com/LETGQvWb0w)
