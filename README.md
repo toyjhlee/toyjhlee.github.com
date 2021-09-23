@@ -30,3 +30,19 @@ bundle exec jekyll serve --drafts
 - css
 - html
 - docs
+
+### 기술 관련 글들의 포맷
+
+```markdown
+## 설명
+
+## 문서 mozilla
+
+## 가이드
+
+## 글들
+
+## 도구들
+
+## support IE11
+```
