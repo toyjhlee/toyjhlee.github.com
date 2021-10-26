@@ -10,6 +10,10 @@ title: 'Vanilla JavaScrip'
 
 [한 줄로 된 javascript util code](https://1loc.dev/)
 
+### JS Is Weird
+
+[이 퀴즈에서는 25개의 기발한 표현을 보게 되며 결과를 추측해야 합니다. 당신이 JS 개발자일지라도 이 구문의 대부분은 아마도 일상 생활에서 사용하는 것이 아닐 것입니다](https://jsisweird.com/?fbclid=IwAR3nnq1OvHhBpgkn2wga5UF0AbDD-zN41c5r7EeVyrRT-7oOkAVAoCID6BI)
+
 ### wtfjs
 
 [아니 X발? 자바스크립트 이게 뭐야??](https://github.com/denysdovhan/wtfjs/blob/master/README-kr.md)
