@@ -1,22 +1,23 @@
 ---
-title:  "코딩 테스트 문제"
-date:   2020-08-03 16:32:00 +0900
+title: "코딩 테스트 문제"
+date: 2020-08-03 16:32:00 +0900
 categories: codingtest
 ---
 
 https://programmers.co.kr/learn/courses/30/lessons/60057?language=javascript
 100 점
+
 ```
 const zipByWordCount = function(s, wordCount) {
     let answerStr = '';
-    
+
     let originStr = ''
     let matchStr = ''
     let count = 1;
     for(let i = 0 ; i < s.length ; i += wordCount) {
         originStr = s.substring(i, i + wordCount)
         matchStr = s.substring(i + wordCount, i + wordCount + wordCount)
-        
+
         if (originStr === matchStr) {
             count += 1;
         } else if (count === 1) {
@@ -27,7 +28,7 @@ const zipByWordCount = function(s, wordCount) {
             count = 1;
         }
     }
-    
+
     return answerStr
 }
 
@@ -42,13 +43,14 @@ function solution(s) {
         answerStr = zipByWordCount(s, i)
         answer = Math.min(answer, answerStr.length)
     }
-    
+
     return answer;
 }
 ```
 
 https://programmers.co.kr/learn/courses/30/lessons/60058
 12 점 실패
+
 ```
 // 균형잡힌 괄호 문자열
 const isBalance = function(p) {
@@ -59,7 +61,7 @@ const isBalance = function(p) {
 const isCorrect = function(p) {
     const arr = p.split('')
     let stack = []
-    
+
     for(let i = 0 ; i < arr.length ; i += 1) {
         if (arr[i] === '(') {
             stack.push('(')
@@ -69,7 +71,7 @@ const isCorrect = function(p) {
             }
         }
     }
-    
+
     return stack.length === 0;
 }
 
@@ -93,10 +95,10 @@ function solution(p) {
         if (isBalance(u)) {
             find = true;
         }
-        
+
         if (find) {
             v = p.substring(i)
-            
+
             if (isCorrect(u)) {
                 v = solution(v)
             } else {
@@ -109,7 +111,7 @@ function solution(p) {
             break;
         }
     }
-    
+
     answer = u + v;
     return answer;
 }
@@ -117,6 +119,7 @@ function solution(p) {
 
 https://programmers.co.kr/learn/courses/30/lessons/60059
 91 점
+
 ```
 // 시계 방향 90도
 const rotation90 = function(key) {
@@ -141,20 +144,20 @@ const print = function(key) {
 const getExtendLock = function(lock) {
     const iLen = lock.length;
     const jLen = lock[0].length;
-    
+
     let extendLock = [];
     for(let i = 0; i < iLen ; i += 1) {
         extendLock.push(new Array(jLen * 3))
     }
-    
-    for(let i = 0; i < iLen ; i += 1) {   
+
+    for(let i = 0; i < iLen ; i += 1) {
         let emptyArr = new Array(jLen * 3);
         for(let j = 0 ; j < lock[i].length ; j+= 1) {
             emptyArr[jLen + j] = lock[i][j];
         }
         extendLock.push(emptyArr);
     }
-    
+
     for(let i = 0; i < iLen ; i += 1) {
         extendLock.push(new Array(jLen * 3))
     }
@@ -179,46 +182,48 @@ const match = function(key, extendLock, iMove, jMove, lockCount) {
             }
         }
     }
-    
+
     return lockCount === count;
 }
 
 function solution(key, lock) {
     var answer = true;
-    
+
     let key90 = rotation90(key)
     let key180 = rotation90(key90)
     let key270 = rotation90(key180)
-    
+
     const extendLock = getExtendLock(lock)
     const lockCount = getLockCount(lock)
-    
+
     for (let i = 0 ; i < lock.length * 2 ; i += 1) {
         for(let j = 0; j < lock[0].length * 2 ; j += 1) {
             if (match(key, extendLock, i, j, lockCount)) {
                 return true;
             }
-            
+
             if (match(key90, extendLock, i, j, lockCount)) {
                 return true;
             }
-            
+
             if (match(key180, extendLock, i, j, lockCount)) {
                 return true;
             }
-            
+
             if (match(key270, extendLock, i, j, lockCount)) {
                 return true;
             }
         }
     }
-    
+
     return false;
 
     return answer;
 }
 ```
+
 100 점
+
 ```
 // 시계 방향 90도
 const rotation90 = function(key) {
@@ -243,20 +248,20 @@ const print = function(key) {
 const getExtendLock = function(lock) {
     const iLen = lock.length;
     const jLen = lock[0].length;
-    
+
     let extendLock = [];
     for(let i = 0; i < iLen ; i += 1) {
         extendLock.push(new Array(jLen * 3))
     }
-    
-    for(let i = 0; i < iLen ; i += 1) {   
+
+    for(let i = 0; i < iLen ; i += 1) {
         let emptyArr = new Array(jLen * 3);
         for(let j = 0 ; j < lock[i].length ; j+= 1) {
             emptyArr[jLen + j] = lock[i][j];
         }
         extendLock.push(emptyArr);
     }
-    
+
     for(let i = 0; i < iLen ; i += 1) {
         extendLock.push(new Array(jLen * 3))
     }
@@ -277,47 +282,47 @@ const match = function(key, extendLock, iMove, jMove, lockCount) {
             }
         }
     }
-    
+
     return lockCount === count;
 }
 
 const getLockCount = function(lock) {
     let count = 0;
-    
+
     return (lock.map((col) => col.join('')).join('').match(/0/g) || []).length
 }
 
 function solution(key, lock) {
-    
+
     var answer = true;
-    
+
     let key90 = rotation90(key)
     let key180 = rotation90(key90)
     let key270 = rotation90(key180)
-    
+
     const extendLock = getExtendLock(lock)
     const lockCount = getLockCount(lock)
-    
+
     for (let i = 0 ; i < lock.length * 2 ; i += 1) {
         for(let j = 0; j < lock[0].length * 2 ; j += 1) {
             if (match(key, extendLock, i, j, lockCount)) {
                 return true;
             }
-            
+
             if (match(key90, extendLock, i, j, lockCount)) {
                 return true;
             }
-            
+
             if (match(key180, extendLock, i, j, lockCount)) {
                 return true;
             }
-            
+
             if (match(key270, extendLock, i, j, lockCount)) {
                 return true;
             }
         }
     }
-    
+
     return false;
 
     return answer;
@@ -329,42 +334,43 @@ https://programmers.co.kr/learn/courses/30/lessons/60060
 정확성: 25.0
 효율성: 30.0
 합계: 55.0 / 100.0
+
 ```
 function solution(words, queries) {
     var answer = [];
-    
+
     const regQueries = queries.map((querie) => {
         return RegExp(querie.replace(/\?/g, '.'))
     })
-    
+
     let mapWordLength = {}
-    
+
     let word = ''
     for(let j = 0 ; j < words.length ; j += 1) {
         word = words[j]
-        
+
         if (mapWordLength[word.length] === undefined) {
             mapWordLength[word.length] = []
         }
-        
+
         mapWordLength[word.length].push(word)
     }
-    
+
     let regQuerie
     let wordLength
     for (let i = 0 ; i < queries.length ; i += 1) {
         answer[i] = 0;
         regQuerie = regQueries[i];
-        
+
         wordLength = mapWordLength[queries[i].length] || []
-        
+
         for(let j = 0 ; j < wordLength.length ; j += 1) {
             if (regQuerie.test(wordLength[j])) {
                 answer[i] += 1;
             }
         }
     }
-    
+
     return answer;
 }
 ```
